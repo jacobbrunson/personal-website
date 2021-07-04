@@ -515,11 +515,6 @@
     ],
     "media": [
       {
-        "type": "youtube",
-        "size": "big",
-        "source": "https://www.youtube.com/embed/Vg8SH7J1_kI"
-      },
-      {
         "type": "video",
         "size": "big",
         "sources": [
