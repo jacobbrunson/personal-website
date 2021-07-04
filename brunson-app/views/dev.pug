@@ -1,0 +1,33 @@
+extends layout.pug
+
+mixin thing(project)
+  .thing
+    h3 #{project.title} (#{project.year})
+    each text in project.paragraphs
+      .p= text
+    if project.media && project.media.length > 0
+      - const maybeSmallClass = project.media.every(({ size }) => size === "small") ? "small" : undefined
+      .media(class=maybeSmallClass)
+        each media in project.media
+          if media.type === "img"
+            div(class=["img", media.size] src=`https://cdn.brunson.dev/projects/media/_thumbs/${media.source}`)
+          else if media.type === "video"
+            div(class=["video", media.size] autoplay loop muted playsinline)
+              each source in media.sources
+                source(src=`https://cdn.brunson.dev/projects/media/_thumbs/${source}`)
+    if project.links && project.links.length > 0
+      div.p
+      h4 Links
+      ul.links
+        each link in project.links
+          li
+            a(href=link.href)= link.title
+
+block scripts
+  script(src="/js/projects.js")
+
+block content
+  div#showcase
+    each project in projects
+      +thing(project)
+    #sentinel

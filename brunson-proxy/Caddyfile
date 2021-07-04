@@ -1,0 +1,11 @@
+brunson.me {
+  reverse_proxy localhost:3000
+}
+
+brunson.dev {
+  reverse_proxy localhost:3000
+}
+
+brunson.photos {
+  reverse_proxy localhost:3000
+}

@@ -1,0 +1,875 @@
+[
+  {
+    "title": "Automatic Blinds Opener",
+    "year": 2020,
+    "paragraphs": [
+      "I rigged a stepper motor to my blinds so that I can open them by issuing an Alexa command. I can also put them on automated timers. This has been a surprisingly big quality of life improvement! And with a white 3D printed encosure, it blends right into the wall."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "blinds/betterdemo.webm",
+          "blinds/betterdemo.mp4"
+        ]
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "blinds/demo.webm",
+          "blinds/demo.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "blinds/stackx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "blinds/sidex256.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "blinds/handheld.webm",
+          "blinds/handheld.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "blinds/topx256.jpeg"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Alexa-controlled RGB TV Backlight",
+    "year": 2020,
+    "paragraphs": [
+      "I really like LEDs. This LED strip is individually addressible, so it can do patterns. In the video you can see the colors slowly shifting."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "backlight/demo.webm",
+          "backlight/demo.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "backlight/picx512.jpeg"
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "CartPole w/ Markov Decision Process",
+    "year": 2019,
+    "paragraphs": [
+      "I solved the OpenAI Gym CartPole problem using a custom Python implementaton of policy iteration over a Markov decision process. I hope to soon apply this model to a <em>real</em> cartpole. For the uninitiated, the goal is to keep a pole balanced on top of a cart that can move left and right. This is a machine learning algorithm, so the computer is teaching itself to balance the pole instead of me giving it specific instructions, roughly speaking."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "cartpole/cartpole.webm",
+          "cartpole/cartpole.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "cartpole/blurryx512.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "OpenAI CartPole Gym",
+        "href": "https://gym.openai.com/envs/CartPole-v0"
+      },
+      {
+        "title": "A great lecture from Stanford's Andrew Ng on reinforcement learning",
+        "href": "https://www.youtube.com/watch?v=RtxI449ZjSc"
+      }
+    ]
+  },
+  {
+    "title": "Storytime: 2D physics in a 3D world (Unity)",
+    "year": 2018,
+    "paragraphs": [
+      "Storyime is a 2D platformer set on the pages of a popup book which exists in the 3D world! It's a really neat effect visually, and can possibly lead to some interesting mechanics."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "storytime/physics.webm",
+          "storytime/physics.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "storytime/projectionx512.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "storytime/animation.webm",
+          "storytime/animation.mp4"
+        ]
+      }
+    ],
+    "links": []
+  },
+  {
+    "title": "Traffic Racer (Rendering from scratch; dynamic shadows)",
+    "year": 2018,
+    "paragraphs": [
+      "I volunteered at the Texas Biomedical Device Center (TxBDC) during my final semester of college. I developed a video game, Traffic Racer, to help rehabilitate stroke & spinal cord injury patients. Patients would engage in physical therapy by playing Traffic Racer using a specialized controller. In tandem, the patient would receive stimulation to their vagus nerve which the lab has shown improves the efficacy of the physical therapy (game). I also helped develop an app called RePlay which is a sort of physical-therapy-oriented Android games launcher.",
+      "Traffic Racer is developed in C# with Mono Game. This game is done \"from scratch\" meaning that I implemented all of the rendering and gameplay myself."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "TrafficRacer/loop.webm",
+          "TrafficRacer/loop.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "TrafficRacer/menux512.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/TrafficRacer"
+      },
+      {
+        "title": "Texas Biomedical Device Center (TxBDC)",
+        "href": "https://www.utdallas.edu/txbdc/"
+      }
+    ]
+  },
+  {
+    "title": "Python ID3 Decision Tree Generator",
+    "year": 2018,
+    "paragraphs": [
+      "Generates decision trees by maximizing information gain"
+    ],
+    "media": [],
+    "links": [
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/PythonID3"
+      }
+    ]
+  },
+  {
+    "title": "High Power RGBW LED Saltwater Aquarium Lighting",
+    "year": 2017,
+    "paragraphs": [
+      "I was (re)starting my saltwater aquarium but I didn't want to deal with the heat, energy, & hassle of the old 250w metal halide system that I was previously using. I also didn't find any suitable lighting fixtures online, so I built my own. This primarily uses white and blue LEDs of a specific wavelength for ideal reef lighting, but also includes red, green, blue, and UV LEDs just for added fun. The whole thing is CNC'd out of a chunk of aluminum because it gets HOT!"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "fishlight/demo.webm",
+          "fishlight/demo.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "fishlight/overviewx512.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "fishlight/topviewx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "fishlight/whitex256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "fishlight/heatx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "fishlight/earlyx256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "DIY Quadcopter Drone",
+    "year": 2016,
+    "paragraphs": [
+      "This was actually the second drone I built, but the first one that actually flew well. That said, you can watch me crash it below."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "quadcopter/crash.webm",
+          "quadcopter/crash.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "quadcopter/grassx512.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "quadcopter/skyx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "quadcopter/handx256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "4x4x4 RGB LED Cube",
+    "year": 2016,
+    "paragraphs": [
+      "This thing looks simple, but is actually horribly complicated. There are 4x4x4=64 physical LEDs, but since these are RGB, each physical bulb is actually 3 LEDs: R, G, and B, giving us a total of 192 LEDs! We also need to rapidly pulsing the R, G, and B channels at specific duty cycles in order to acheive proper color blending. But the Arduino Uno I was using only had 6 PWM pins! I ended up daisy chaining 3 TLC5940 LED drivers which gave me 48 dimmable constant-current sinks, but that is still only 1/4 of the pins I need to control all the lights. To get around this, I used Charlieplexing to light each 4x4 layer (which happens to contain 48 LEDS) separately at such a high speed that persistence-of-vision effects trick your eye into believing they're all lit at the same time. Combining this with PWM, though, was really hard..."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "cube/patterns.webm",
+          "cube/patterns.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "cube/gutsx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "cube/layersx256.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "cube/solids.webm",
+          "cube/solids.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "cube/gutstopx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "cube/gutsredx256.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "Charlieplexing",
+        "href": "https://en.wikipedia.org/wiki/Charlieplexing"
+      },
+      {
+        "title": "TLC5940",
+        "href": "https://www.ti.com/lit/ds/symlink/tlc5940.pdf?ts=1597020147259"
+      }
+    ]
+  },
+  {
+    "title": "Blinking Hardhat",
+    "year": 2016,
+    "paragraphs": [
+      "I designed blinking hardhats based on a 555 clock and a green 3W LED. Green and black were the colors for my high school FRC robotics team, the 5212 TAMSformers. All ~20 of us assembled our own hats and wore them to competition. Below you can see my friend Floyd modeling one."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "hardhat/loop.webm",
+          "hardhat/loop.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "hardhat/floydx256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "FRC 120lb ball-shooting pull-up tank robot",
+    "year": 2016,
+    "paragraphs": [
+      "I did the CAD modeling, parts sourcing, and a large part of the design & assembly for my senior year First Robotics Competition (FRC) robot along side my highly dedicated team. The robot has tank treads to get over obstacles, can pick up and shoot dodge balls, and can actually lift its entire 120lb weight off the ground as if its doing a pull-up! I wish I had a video of the pull-up. This was the greatest team I have ever been a part of."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "robot/shooting.webm",
+          "robot/shooting.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/sexy512.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "robot/pivot.webm",
+          "robot/pivot.mp4"
+        ]
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "robot/driving.webm",
+          "robot/driving.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/wholemodelx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/zoomrenderx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/chassisx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/pullupx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/detailx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/teamx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/pinsx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/couplerx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "robot/sidex256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Unity Custom Bézier Curve Tool for Generating 2.5D Hills",
+    "year": 2016,
+    "paragraphs": [
+      "I basically implemented the Photoshop Pen Tool in Unity. The cool part is, it generates 2.5D terrain with edge colliders so that it can be used as terrain for a game."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "bezier/demo.webm",
+          "bezier/demo.mp4"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/UnityBezierHillEditor"
+      },
+      {
+        "title": "Video",
+        "href": "https://www.youtube.com/watch?v=3A152K609IM"
+      }
+    ]
+  },
+  {
+    "title": "xkcd Inspired Sign",
+    "year": 2015,
+    "paragraphs": [
+      "I love this xkcd comic, and I wanted to make one in real life. Sadly I didn't get the lighting diffused, so the effect wasn't quite as good as desired. I would like to revisit this one at some point."
+    ],
+    "media": [
+      {
+        "type": "img",
+        "size": "big",
+        "source": "xkcd/sign.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "https://imgs.xkcd.com/comics/reset.png"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/concept.png"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/displaysx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/ledsx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/paintedx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/pcbbotx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/pcbtobx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/stencilx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "xkcd/wiresx256.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "xkcd",
+        "href": "https://xkcd.com/363/"
+      }
+    ]
+  },
+  {
+    "title": "Automated Dorm Room",
+    "year": 2015,
+    "paragraphs": [
+      "How do you automatically unlock your door if you're not allowed to change the locking mechanism? 3D print a custom doorknob with a built in gear, of course! I wanted a fully automated dorm room, but I wasn't really allowed to modify or damage anything that was school property. I ended up with a face-recognizing peephole which unlocks my door, 2 automatic light switch flippers, a custom smart touch screen display, as well as phone, web, & voice controls."
+    ],
+    "media": [
+      {
+        "type": "youtube",
+        "size": "big",
+        "source": "https://www.youtube.com/embed/Vg8SH7J1_kI"
+      },
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "autoroom/loop.webm",
+          "autoroom/loop.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "autoroom/fullpanelx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "autoroom/switchesx256.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "autoroom/3dprint.webm",
+          "autoroom/3dprint.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "autoroom/doorx256.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "Video",
+        "href": "https://www.youtube.com/watch?v=Vg8SH7J1_kI"
+      }
+    ]
+  },
+  {
+    "title": "Robot Object Segmentation & Localization",
+    "year": 2015,
+    "paragraphs": [
+      "I programmed a robot to segment and localize objects while looking around a playing field. This is used to extract visual features to improve training during gameplay. In the video, you can see that the robot points to the objects location and also says the color of the object."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "nao/demo.webm",
+          "nao/demo.mp4"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/ispy_robot"
+      },
+      {
+        "title": "Video",
+        "href": "https://www.youtube.com/watch?v=wSN6pFF994I"
+      },
+      {
+        "title": "Human Intelligence and Language Technologies (HiLT) Lab",
+        "href": "http://hilt.cse.unt.edu"
+      }
+    ]
+  },
+  {
+    "title": "Xbox Kinect Experiments",
+    "year": 2015,
+    "paragraphs": [
+      "The 2015 First Robotics Competition (FRC) challenge involved picking up and stacking plastic totes. I was using OpenCV and an Xbox Kinect to detect stacks of totes and count the number of totes in each stack."
+    ],
+    "media": [
+      {
+        "type": "img",
+        "size": "small",
+        "source": "totes/totesx256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "PSAT Early-release Score Checker",
+    "year": 2014,
+    "paragraphs": [
+      "There is a long waiting period between taking the PSAT and getting your scores. After taking the PSAT my junior year, I created a website which allows you to calculate your score (to within 2 points) long before scores are actually released by your school. It spread virally across north Texas and beyond and helped thousands of Class of 2016 juniors get their scores early.",
+      "Check out some of the buzz on College Confidential."
+    ],
+    "links": [
+      {
+        "title": "\"Wish we had known aboiut the jacob bruson link first! It would have saved a lot of time.\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17859494/#Comment_17859494"
+      },
+      {
+        "title": "\"the raw scores which Jacob's calculator yields are ACCURATE. Thanks again!\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17860891/#Comment_17860891"
+      },
+      {
+        "title": "\"palm's and Jacob's system were both accurate for my DS who got his result today\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17880849/#Comment_17880849"
+      },
+      {
+        "title": "\"Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207.\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+      },
+      {
+        "title": "\"Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207.\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+      },
+      {
+        "title": "\"Is the Jacob Brunson website a legitimate way to check your scores???\"",
+        "href": "https://talk.collegeconfidential.com/national-merit-scholarships/1716710-is-the-jacob-brunson-website-a-legitimate-way-to-check-your-scores.html"
+      },
+      {
+        "title": "\"Use this link. https://scores.jacobbrunson.me/ Only if you're anxious :)\"",
+        "href": "https://talk.collegeconfidential.com/discussion/comment/17857120/#Comment_17857120"
+      },
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/PSAT-Scores"
+      }
+    ]
+  },
+  {
+    "title": "Dorm Room Automatic Light Switch",
+    "year": 2014,
+    "paragraphs": [
+      "I lived in a dorm room at the Texas Academy of Math and Science in 2014. I wanted to get into home automation, but I couldn't connect Alexa to the dorm wifi, and I couldn't take anything apart or damage the walls. So, I hacked together a system with an Arduino, Raspberry Pi, and a servo motor, to control my lights via voice, phone, & web."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "lightswitch/thumbsup.webm",
+          "lightswitch/thumbsup.mp4"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "Video",
+        "href": "https://www.youtube.com/watch?v=8MMJ7WfxnNw"
+      }
+    ]
+  },
+  {
+    "title": "OpenCV Ping Pong Ball Tracking",
+    "year": 2014,
+    "paragraphs": [
+      "I started learning about computer vision my junior year of high school. Here is my first cool demo - tracking a ping pong ball."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "pingpong/pingpong.webm",
+          "pingpong/pingpong.mp4"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "Video",
+        "href": "https://www.youtube.com/watch?v=G4R9qPCT4Ho"
+      }
+    ]
+  },
+  {
+    "title": "TangleRidge.com Golf Course Website",
+    "year": 2013,
+    "paragraphs": [
+      "Tangle Ridge is a golf course located in my hometown of Grand Prairie, TX, and I made their website. There's actually a giant advertisement for it on the side of a water tower next to TX 360. I worked on several other websites for the City of Grand Prairie, including websites for another golf course, the mayor Ron Jensen's campaign website, the Housing & Neighborhood Services website, and more."
+    ],
+    "media": [
+      {
+        "type": "img",
+        "size": "small",
+        "source": "webdev/tangleridgex512.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "webdev/watertowerx512.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "Wayback Machine",
+        "href": "https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+      }
+    ]
+  },
+  {
+    "title": "ESPN Deportes Affiliate Sites",
+    "year": 2013,
+    "paragraphs": [
+      "I got involved with a local web design company and was able to work on the websites for ESPN Deportes affiliates in Dallas, Houston, Miami, and San Francisco. I got to implement a custom audio player, an engagement rewards points system, and other neat things. It doesn't look the greatest on the Wayback Machine, but I sure was having fun getting paid to make websites."
+    ],
+    "media": [
+      {
+        "type": "img",
+        "size": "small",
+        "source": "espn/miamix512.jpeg"
+      }
+    ],
+    "links": [
+      {
+        "title": "Wayback Machine",
+        "href": "https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+      }
+    ]
+  },
+  {
+    "title": "2D Dynamic Lighting & Shadows with OpenGL",
+    "year": 2013,
+    "paragraphs": [
+      "This was my first experience with low-level graphics. Lights blend together and cast dynamic shadows against rigid bodies. I first created this in Java, and later ported it to JavaScript (WebGL) and also Lua (Love2D)."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "2dlights/bigdemo.webm",
+          "2dlights/bigdemo.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "big",
+        "source": "2dlights/rgbmyx512.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "2dlights/bigdemo2.webm",
+          "2dlights/bigdemo2.mp4"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/BasicLighting"
+      },
+      {
+        "title": "Video",
+        "href": "http://www.youtube.com/watch?v=nSf1MpsWKig"
+      }
+    ]
+  },
+  {
+    "title": "Color Code Door Lock",
+    "year": 2013,
+    "paragraphs": [
+      "This home-made smart lock uses a sequence of colors to unlock the door. It's an IoT device which allowed you to remotely (un)lock the door, change passwords, add guest passwords, log activity, and more with a custom iOS app & web interface. I designed & manufactured custom circuit boards & silicone buttons pads and sourced all of the electornics and hardware necessary to produce these on a larger scale. At some point I realized that this project was too big for one kid and it has since fell by the wayside."
+    ],
+    "media": [
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "doorlock/demo.webm",
+          "doorlock/demo.mp4"
+        ]
+      },
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "doorlock/cool.webm",
+          "doorlock/cool.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "doorlock/padx256.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "small",
+        "sources": [
+          "doorlock/chase.webm",
+          "doorlock/chase.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "doorlock/pcbsx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "doorlock/eaglex256.jpeg"
+      },
+      {
+        "type": "video",
+        "size": "big",
+        "sources": [
+          "doorlock/web.webm",
+          "doorlock/web.mp4"
+        ]
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "doorlock/stillx256.jpeg"
+      },
+      {
+        "type": "img",
+        "size": "small",
+        "source": "doorlock/pcbax256.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "uCreate Minecraft Server Mod",
+    "year": 2012,
+    "paragraphs": [
+      "Before Minecraft had an actual creative mode, I created this mod to allow you to implement your own customizable creative mode in your Minecraft server. After creative mode was added, I pivoted the mod to focus on augmenting the short comings of the built-in creative mode."
+    ],
+    "links": [
+      {
+        "title": "Installation Video",
+        "href": "https://www.youtube.com/watch?v=d0I9tA2gmgw"
+      },
+      {
+        "title": "Source",
+        "href": "https://github.com/jacobbrunson/uCreate"
+      }
+    ]
+  },
+  {
+    "title": "Server Chunk",
+    "year": 2012,
+    "paragraphs": [
+      "I created a Minecraft server listing website in 8th grade. Server owners could add their server to the site, and users could vote on their favorite sites. I created an accompanying server mod which tracked tons of statistics, like player count, uptime, & performance, and reported them back to the website. All of this data fed into a custom ranking algorithm that I felt was superior to all other listing sites."
+    ],
+    "links": [
+      {
+        "title": "Wayback Machine",
+        "href": "https://web.archive.org/web/20120715075324/http://serverchunk.com:80/"
+      }
+    ]
+  }
+]

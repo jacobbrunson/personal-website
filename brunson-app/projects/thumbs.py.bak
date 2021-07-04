@@ -1,0 +1,77 @@
+import os
+import shutil
+from PIL import Image
+import numpy as np
+from moviepy.editor import VideoFileClip, vfx
+from moviepy.video.fx.speedx import speedx
+from moviepy.video.fx.time_symmetrize import time_symmetrize
+from moviepy.video.fx.time_mirror import time_mirror
+from moviepy.video.compositing.concatenate import concatenate_videoclips
+
+
+imgPath = "./img"
+thumbsPath = os.path.join(imgPath, "_thumbs")
+
+shutil.rmtree(thumbsPath)
+os.mkdir(thumbsPath)
+
+thumbPaths = []
+
+for parentPath, subdirs, files in os.walk(imgPath):
+    for f in files:
+        if not "_thumbs" in parentPath:
+            path = os.path.join(parentPath, f)
+            thumbParent = parentPath.replace(imgPath, os.path.join(imgPath, "_thumbs"))
+
+            if not os.path.exists(thumbParent):
+                    os.mkdir(thumbParent)
+
+            thumbPath = os.path.join(thumbParent, f)
+            thumbBase, thumbExt = os.path.splitext(thumbPath)
+
+            if any(map(lambda ext: f.endswith(ext), ['.jpeg', '.png', 'jpg'])):
+                img = Image.open(path)
+                img = img.convert("RGB")
+
+                (w, h) = img.size
+                if w > h:
+                    delta = (w - h) // 2
+                    img = img.crop((
+                        delta,
+                        0,
+                        w - delta,
+                        h
+                    ))
+                elif h > w:
+                    delta = (h - w) // 2
+                    img = img.crop((
+                        0,
+                        delta,
+                        w,
+                        h - delta
+                    ))
+
+                def save(res): 
+                    print("Saving " + thumbBase + "x" + str(res))
+                    copy = img.resize((res, res), resample=Image.LANCZOS)
+                    copy.save(thumbBase + "x" + str(res) + ".jpeg", "JPEG", quality=85)
+                
+                save(128)
+                save(256)
+                save(512)
+
+            elif any(map(lambda ext: f.endswith(ext), ['.mp4', '.mov'])):
+                clip = VideoFileClip(path)
+
+                s = 0
+                if "storytime" not in path:
+                    (w, h) = (clip.w // 1.04, clip.h // 1.04)
+                    s = min(w, h)
+                    clip = clip.fx(vfx.crop, width=s, height=s, x_center=(w//2), y_center=(h//2))
+
+                if s > 512:
+                    clip = clip.resize(height=512)
+                clip.write_videofile(thumbBase + ".webm", audio=False)
+                clip.write_videofile(thumbBase + ".mp4", audio=False, codec="mpeg4")
+
+            

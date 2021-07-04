@@ -1,0 +1,39 @@
+mixin link(e, name)
+  li
+    - const maybeCurrentClass = e === extension ? "current" : undefined;
+    a(href=absolutePath(e) class=[name, maybeCurrentClass])= name
+
+doctype html
+html(lang="en")
+  head
+    title #{title} | Jacob Brunson
+    link(rel="preload" href="/font/SF.woff2" crossorigin="anonymous" as="font" type="font/woff2")
+    link(rel="preload" href="/font/SF-Thin.woff2" crossorigin="anonymous" as="font" type="font/woff2")
+    link(rel="preload" href="/font/OpenSans.woff2" crossorigin="anonymous" as="font" type="font/woff2")
+    link(rel="stylesheet", href="/css/style.css")
+    style.
+      #name::after {
+        content: "#{absolutePath(extension)}";
+      }
+  body
+    header
+      a(href="https://brunson.me")
+        h1#name Brunson
+      nav
+        ul
+          +link("me", "about")
+          +link("dev", "projects")
+          +link("photos", "photos")
+        ul
+          li
+            a(href="https://www.instagram.com/jacobbrunsonburner/" target="_blank")
+              img(src="/img/ig.svg" class="social" width="32" height="32")
+            a(href="https://github.com/jacobbrunson" target="_blank")
+              img(src="/img/gh.svg" class="social" width="32" height="32")
+            a(href="https://www.linkedin.com/in/jacob-brunson-42b61b142/" target="_blank")
+              img(src="/img/in.svg" class="social" width="32" height="32")
+            a(href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw" target="_blank")
+              img(src="/img/yt.svg" class="social" width="32" height="32")
+    block content
+    block scripts
+    

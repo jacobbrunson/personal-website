@@ -1,0 +1,5 @@
+node_modules
+brunson-app/photos/upload
+brunson-app/photos/uploaded
+brunson-app/projects/media
+.DS_Store

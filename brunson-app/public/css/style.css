@@ -1,0 +1,414 @@
+@font-face {
+  font-family: "SF";
+  src: url("/font/SF.woff2");
+}
+
+@font-face {
+  font-family: "SF Thin";
+  src: url("/font/SF-Thin.woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/font/OpenSans.woff2");
+}
+
+:root {
+  --header-height: 36px;
+  --name-font-size: 1.1em;
+  --nav-font-size: 0.9em;
+}
+
+#name {
+  height: var(--header-height);
+}
+
+#name::after {
+  display: none;
+}
+
+header {
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --header-height: 40px;
+    --name-font-size: 1.3em;
+    --nav-font-size: 1.1em;
+  }
+
+  #name {
+    animation: slide 0.5s linear 2s;
+    animation-fill-mode: both;
+  }
+  
+  #name::before {
+    content: "Jacob ";
+  }
+
+  #name::after {
+    content: "https://brunson.dev/";
+    display: block;
+    font-size: 60%;
+    font-family: monospace;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --header-height: 44px;
+    --name-font-size: 1.6em;
+    --nav-font-size: 1.4em;
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    --header-height: 48px;
+    --name-font-size: 1.8em;
+    --nav-font-size: 1.6em;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    --header-height: 52px;
+    --name-font-size: 2.0em;
+    --nav-font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1060px) {
+  :root {
+    --header-height: 56px;
+    --name-font-size: 2.4em;
+    --nav-font-size: 2.0em;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --header-height: 60px;
+    --name-font-size: 2.8em;
+    --nav-font-size: 2.2em;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --header-height: 64px;
+    --name-font-size: 3em;
+    --nav-font-size: 2.4em;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  background-color: #262626;
+  color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.vertical {
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  line-height: calc(var(--header-height) * 0.95);
+  font-size: var(--name-font-size);
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.4em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 24px;
+}
+
+@media (min-width: 1000px) {
+  header {
+    padding: 0 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    padding: 0 64px;
+  }
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  font-size: var(--nav-font-size);
+  font-family: 'SF Thin';
+  line-height: var(--header-height);
+  margin-left: 12px;
+}
+
+nav a.current {
+  font-family: 'SF';
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+  nav a {
+    margin-left: 18px;
+  }
+}
+
+@media (min-width: 800px) {
+  nav a {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav a {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav a {
+    margin-left: 36px;
+  }
+}
+
+.social {
+  filter: invert(100%);
+  --social-height: calc(var(--header-height) * 0.375);
+  margin-top: calc(var(--social-height) * 0.9);
+  width: var(--social-height);
+  height: var(--social-height);
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#sentinel {
+  width: 100%;
+  height: 100px;
+}
+
+#status {
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#stack {
+  font-family: monospace;
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: auto;
+}
+
+/* brunson.me */
+
+#profile {
+  width: 800px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img#jacob {
+  width: 256px;
+  height: 256px;
+  border-radius: 128px;
+  margin-right: 50px;
+}
+
+/* brunson.dev */
+
+:root {
+  --projects-num-media-columns: 6;
+  --projects-main-width: min(95vw, 1000px);
+  --projects-media-column-width: calc((var(--projects-main-width) - ((var(--projects-num-media-columns) - 1) * 4px)) / var(--projects-num-media-columns));
+}
+
+#showcase {
+  display: block;
+  width: var(--projects-main-width);
+  margin-left: calc((100vw - var(--projects-main-width)) / 2);
+}
+
+#showcase .thing {
+  margin: 50px 0;
+  display: none;
+  padding: 0 0 60px;
+  border-bottom: 8px solid #111;
+}
+
+@media (min-width: 1000px) {
+  #showcase .thing {
+    padding: 0 25px 60px;
+  }
+}
+
+.media {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(var(--projects-num-media-columns), var(--projects-media-column-width));
+  grid-template-rows: repeat(2, var(--projects-media-column-width));
+  grid-auto-flow: column dense;
+  gap: 4px;
+  overflow: auto;
+}
+
+.media.small {
+  grid-template-rows: repeat(1, var(--projects-media-column-width));
+  grid-auto-flow: row dense;
+}
+
+.media .small {
+  grid-row-end: span 1;
+  grid-column-end: span 1;
+  background-color: #111;
+  width: var(--projects-media-column-width);
+  height: var(--projects-media-column-width);
+}
+
+.media .big {
+  grid-row-end: span 2;
+  grid-column-end: span 2;
+  background-color: #111;
+  width: calc((var(--projects-media-column-width) * 2) + 4px);
+  height: calc((var(--projects-media-column-width) * 2) + 4px);
+}
+
+/* brunson.photos */
+
+#gallery {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #262626;
+}
+
+#gallery img {
+  height: 200px;
+  object-fit: cover;
+  box-sizing: border-box;
+  display: block;
+  border: 2px solid #262626;
+  background-color: #111;
+  cursor: pointer;
+}
+
+#lightbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox-img {
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#lightbox a {
+  position: absolute;
+  height: 40px;
+  top: calc(5% - 20px);
+  background: none;
+  border: none;
+  color: #539ba1;
+  font-family: "SF";
+  font-size: 40px;
+  cursor: pointer;
+}
+
+@media (orientation:portrait) {
+  #lightbox-img {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+.p {
+  margin: 20px 0;
+  font-size: 14pt;
+}
+
+.links {
+  margin: 10px;
+}

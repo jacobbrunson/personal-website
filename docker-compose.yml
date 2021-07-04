@@ -1,0 +1,24 @@
+version: "3.7"
+services:
+  brunson-proxy:
+    build: ./brunson-proxy/
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./brunson-proxy/Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+  brunson-app:
+    build: ./brunson-app/
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./brunson-app:/app
+    environment:
+      NODE_ENV: production
+volumes:
+  caddy_data:
+  caddy_config:
