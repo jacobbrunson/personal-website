@@ -1,0 +1,6136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Host: brunson.dev / serves Projects 1`] = `
+<head>
+  <title>
+    Projects | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.dev/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.dev / serves Projects 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects current"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="showcase"
+  >
+    <div
+      class="thing"
+    >
+      <h3>
+        Automatic Blinds Opener (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I rigged a stepper motor to my blinds so that I can open them by issuing an Alexa command. I can also put them on automated timers. This has been a surprisingly big quality of life improvement! And with a white 3D printed encosure, it blends right into the wall.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/stackx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/sidex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/topx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Alexa-controlled RGB TV Backlight (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I really like LEDs. This LED strip is individually addressible, so it can do patterns. In the video you can see the colors slowly shifting.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/picx512.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        CartPole w/ Markov Decision Process (2019)
+      </h3>
+      <div
+        class="p"
+      >
+        I solved the OpenAI Gym CartPole problem using a custom Python implementaton of policy iteration over a Markov decision process. I hope to soon apply this model to a &lt;em&gt;real&lt;/em&gt; cartpole. For the uninitiated, the goal is to keep a pole balanced on top of a cart that can move left and right. This is a machine learning algorithm, so the computer is teaching itself to balance the pole instead of me giving it specific instructions, roughly speaking.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/blurryx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://gym.openai.com/envs/CartPole-v0"
+          >
+            OpenAI CartPole Gym
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=RtxI449ZjSc"
+          >
+            A great lecture from Stanford's Andrew Ng on reinforcement learning
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Storytime: 2D physics in a 3D world (Unity) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Storyime is a 2D platformer set on the pages of a popup book which exists in the 3D world! It's a really neat effect visually, and can possibly lead to some interesting mechanics.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/projectionx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.mp4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Traffic Racer (Rendering from scratch; dynamic shadows) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        I volunteered at the Texas Biomedical Device Center (TxBDC) during my final semester of college. I developed a video game, Traffic Racer, to help rehabilitate stroke & spinal cord injury patients. Patients would engage in physical therapy by playing Traffic Racer using a specialized controller. In tandem, the patient would receive stimulation to their vagus nerve which the lab has shown improves the efficacy of the physical therapy (game). I also helped develop an app called RePlay which is a sort of physical-therapy-oriented Android games launcher.
+      </div>
+      <div
+        class="p"
+      >
+        Traffic Racer is developed in C# with Mono Game. This game is done "from scratch" meaning that I implemented all of the rendering and gameplay myself.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/menux512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/TrafficRacer"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.utdallas.edu/txbdc/"
+          >
+            Texas Biomedical Device Center (TxBDC)
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Python ID3 Decision Tree Generator (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Generates decision trees by maximizing information gain
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PythonID3"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        High Power RGBW LED Saltwater Aquarium Lighting (2017)
+      </h3>
+      <div
+        class="p"
+      >
+        I was (re)starting my saltwater aquarium but I didn't want to deal with the heat, energy, & hassle of the old 250w metal halide system that I was previously using. I also didn't find any suitable lighting fixtures online, so I built my own. This primarily uses white and blue LEDs of a specific wavelength for ideal reef lighting, but also includes red, green, blue, and UV LEDs just for added fun. The whole thing is CNC'd out of a chunk of aluminum because it gets HOT!
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/overviewx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/topviewx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/whitex256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/heatx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/earlyx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        DIY Quadcopter Drone (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This was actually the second drone I built, but the first one that actually flew well. That said, you can watch me crash it below.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/grassx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/skyx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/handx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        4x4x4 RGB LED Cube (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This thing looks simple, but is actually horribly complicated. There are 4x4x4=64 physical LEDs, but since these are RGB, each physical bulb is actually 3 LEDs: R, G, and B, giving us a total of 192 LEDs! We also need to rapidly pulsing the R, G, and B channels at specific duty cycles in order to acheive proper color blending. But the Arduino Uno I was using only had 6 PWM pins! I ended up daisy chaining 3 TLC5940 LED drivers which gave me 48 dimmable constant-current sinks, but that is still only 1/4 of the pins I need to control all the lights. To get around this, I used Charlieplexing to light each 4x4 layer (which happens to contain 48 LEDS) separately at such a high speed that persistence-of-vision effects trick your eye into believing they're all lit at the same time. Combining this with PWM, though, was really hard...
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/layersx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutstopx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsredx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Charlieplexing"
+          >
+            Charlieplexing
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ti.com/lit/ds/symlink/tlc5940.pdf?ts=1597020147259"
+          >
+            TLC5940
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Blinking Hardhat (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I designed blinking hardhats based on a 555 clock and a green 3W LED. Green and black were the colors for my high school FRC robotics team, the 5212 TAMSformers. All ~20 of us assembled our own hats and wore them to competition. Below you can see my friend Floyd modeling one.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/floydx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        FRC 120lb ball-shooting pull-up tank robot (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I did the CAD modeling, parts sourcing, and a large part of the design & assembly for my senior year First Robotics Competition (FRC) robot along side my highly dedicated team. The robot has tank treads to get over obstacles, can pick up and shoot dodge balls, and can actually lift its entire 120lb weight off the ground as if its doing a pull-up! I wish I had a video of the pull-up. This was the greatest team I have ever been a part of.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/wholemodelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/zoomrenderx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/chassisx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pullupx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/detailx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/teamx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pinsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/couplerx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sidex256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Unity Custom Bézier Curve Tool for Generating 2.5D Hills (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I basically implemented the Photoshop Pen Tool in Unity. The cool part is, it generates 2.5D terrain with edge colliders so that it can be used as terrain for a game.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/UnityBezierHillEditor"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=3A152K609IM"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        xkcd Inspired Sign (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I love this xkcd comic, and I wanted to make one in real life. Sadly I didn't get the lighting diffused, so the effect wasn't quite as good as desired. I would like to revisit this one at some point.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/displaysx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/ledsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/paintedx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbbotx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/stencilx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/wiresx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://xkcd.com/363/"
+          >
+            xkcd
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Automated Dorm Room (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        How do you automatically unlock your door if you're not allowed to change the locking mechanism? 3D print a custom doorknob with a built in gear, of course! I wanted a fully automated dorm room, but I wasn't really allowed to modify or damage anything that was school property. I ended up with a face-recognizing peephole which unlocks my door, 2 automatic light switch flippers, a custom smart touch screen display, as well as phone, web, & voice controls.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/fullpanelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/switchesx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/doorx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=Vg8SH7J1_kI"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Robot Object Segmentation & Localization (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I programmed a robot to segment and localize objects while looking around a playing field. This is used to extract visual features to improve training during gameplay. In the video, you can see that the robot points to the objects location and also says the color of the object.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/ispy_robot"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=wSN6pFF994I"
+          >
+            Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://hilt.cse.unt.edu"
+          >
+            Human Intelligence and Language Technologies (HiLT) Lab
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Xbox Kinect Experiments (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        The 2015 First Robotics Competition (FRC) challenge involved picking up and stacking plastic totes. I was using OpenCV and an Xbox Kinect to detect stacks of totes and count the number of totes in each stack.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/totes/totesx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        PSAT Early-release Score Checker (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        There is a long waiting period between taking the PSAT and getting your scores. After taking the PSAT my junior year, I created a website which allows you to calculate your score (to within 2 points) long before scores are actually released by your school. It spread virally across north Texas and beyond and helped thousands of Class of 2016 juniors get their scores early.
+      </div>
+      <div
+        class="p"
+      >
+        Check out some of the buzz on College Confidential.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17859494/#Comment_17859494"
+          >
+            "Wish we had known aboiut the jacob bruson link first! It would have saved a lot of time."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860891/#Comment_17860891"
+          >
+            "the raw scores which Jacob's calculator yields are ACCURATE. Thanks again!"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17880849/#Comment_17880849"
+          >
+            "palm's and Jacob's system were both accurate for my DS who got his result today"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/national-merit-scholarships/1716710-is-the-jacob-brunson-website-a-legitimate-way-to-check-your-scores.html"
+          >
+            "Is the Jacob Brunson website a legitimate way to check your scores???"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17857120/#Comment_17857120"
+          >
+            "Use this link. https://scores.jacobbrunson.me/ Only if you're anxious :)"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PSAT-Scores"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Dorm Room Automatic Light Switch (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I lived in a dorm room at the Texas Academy of Math and Science in 2014. I wanted to get into home automation, but I couldn't connect Alexa to the dorm wifi, and I couldn't take anything apart or damage the walls. So, I hacked together a system with an Arduino, Raspberry Pi, and a servo motor, to control my lights via voice, phone, & web.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=8MMJ7WfxnNw"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        OpenCV Ping Pong Ball Tracking (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I started learning about computer vision my junior year of high school. Here is my first cool demo - tracking a ping pong ball.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=G4R9qPCT4Ho"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        TangleRidge.com Golf Course Website (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        Tangle Ridge is a golf course located in my hometown of Grand Prairie, TX, and I made their website. There's actually a giant advertisement for it on the side of a water tower next to TX 360. I worked on several other websites for the City of Grand Prairie, including websites for another golf course, the mayor Ron Jensen's campaign website, the Housing & Neighborhood Services website, and more.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/tangleridgex512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/watertowerx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        ESPN Deportes Affiliate Sites (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        I got involved with a local web design company and was able to work on the websites for ESPN Deportes affiliates in Dallas, Houston, Miami, and San Francisco. I got to implement a custom audio player, an engagement rewards points system, and other neat things. It doesn't look the greatest on the Wayback Machine, but I sure was having fun getting paid to make websites.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/espn/miamix512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        2D Dynamic Lighting & Shadows with OpenGL (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This was my first experience with low-level graphics. Lights blend together and cast dynamic shadows against rigid bodies. I first created this in Java, and later ported it to JavaScript (WebGL) and also Lua (Love2D).
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/BasicLighting"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.youtube.com/watch?v=nSf1MpsWKig"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Color Code Door Lock (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This home-made smart lock uses a sequence of colors to unlock the door. It's an IoT device which allowed you to remotely (un)lock the door, change passwords, add guest passwords, log activity, and more with a custom iOS app & web interface. I designed & manufactured custom circuit boards & silicone buttons pads and sourced all of the electornics and hardware necessary to produce these on a larger scale. At some point I realized that this project was too big for one kid and it has since fell by the wayside.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/padx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/eaglex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/stillx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbax256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        uCreate Minecraft Server Mod (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        Before Minecraft had an actual creative mode, I created this mod to allow you to implement your own customizable creative mode in your Minecraft server. After creative mode was added, I pivoted the mod to focus on augmenting the short comings of the built-in creative mode.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=d0I9tA2gmgw"
+          >
+            Installation Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/uCreate"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Server Chunk (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        I created a Minecraft server listing website in 8th grade. Server owners could add their server to the site, and users could vote on their favorite sites. I created an accompanying server mod which tracked tons of statistics, like player count, uptime, & performance, and reported them back to the website. All of this data fed into a custom ranking algorithm that I felt was superior to all other listing sites.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20120715075324/http://serverchunk.com:80/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      id="sentinel"
+    />
+  </div>
+  <script
+    src="/js/projects.js"
+  />
+</body>
+`;
+
+exports[`Host: brunson.dev /dev serves 404 1`] = `
+<head>
+  <title>
+    404 | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "404";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.dev /dev serves 404 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="status"
+  >
+    404
+  </div>
+</body>
+`;
+
+exports[`Host: brunson.dev empty path serves Projects 1`] = `
+<head>
+  <title>
+    Projects | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.dev/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.dev empty path serves Projects 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects current"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="showcase"
+  >
+    <div
+      class="thing"
+    >
+      <h3>
+        Automatic Blinds Opener (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I rigged a stepper motor to my blinds so that I can open them by issuing an Alexa command. I can also put them on automated timers. This has been a surprisingly big quality of life improvement! And with a white 3D printed encosure, it blends right into the wall.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/stackx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/sidex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/topx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Alexa-controlled RGB TV Backlight (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I really like LEDs. This LED strip is individually addressible, so it can do patterns. In the video you can see the colors slowly shifting.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/picx512.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        CartPole w/ Markov Decision Process (2019)
+      </h3>
+      <div
+        class="p"
+      >
+        I solved the OpenAI Gym CartPole problem using a custom Python implementaton of policy iteration over a Markov decision process. I hope to soon apply this model to a &lt;em&gt;real&lt;/em&gt; cartpole. For the uninitiated, the goal is to keep a pole balanced on top of a cart that can move left and right. This is a machine learning algorithm, so the computer is teaching itself to balance the pole instead of me giving it specific instructions, roughly speaking.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/blurryx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://gym.openai.com/envs/CartPole-v0"
+          >
+            OpenAI CartPole Gym
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=RtxI449ZjSc"
+          >
+            A great lecture from Stanford's Andrew Ng on reinforcement learning
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Storytime: 2D physics in a 3D world (Unity) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Storyime is a 2D platformer set on the pages of a popup book which exists in the 3D world! It's a really neat effect visually, and can possibly lead to some interesting mechanics.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/projectionx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.mp4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Traffic Racer (Rendering from scratch; dynamic shadows) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        I volunteered at the Texas Biomedical Device Center (TxBDC) during my final semester of college. I developed a video game, Traffic Racer, to help rehabilitate stroke & spinal cord injury patients. Patients would engage in physical therapy by playing Traffic Racer using a specialized controller. In tandem, the patient would receive stimulation to their vagus nerve which the lab has shown improves the efficacy of the physical therapy (game). I also helped develop an app called RePlay which is a sort of physical-therapy-oriented Android games launcher.
+      </div>
+      <div
+        class="p"
+      >
+        Traffic Racer is developed in C# with Mono Game. This game is done "from scratch" meaning that I implemented all of the rendering and gameplay myself.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/menux512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/TrafficRacer"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.utdallas.edu/txbdc/"
+          >
+            Texas Biomedical Device Center (TxBDC)
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Python ID3 Decision Tree Generator (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Generates decision trees by maximizing information gain
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PythonID3"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        High Power RGBW LED Saltwater Aquarium Lighting (2017)
+      </h3>
+      <div
+        class="p"
+      >
+        I was (re)starting my saltwater aquarium but I didn't want to deal with the heat, energy, & hassle of the old 250w metal halide system that I was previously using. I also didn't find any suitable lighting fixtures online, so I built my own. This primarily uses white and blue LEDs of a specific wavelength for ideal reef lighting, but also includes red, green, blue, and UV LEDs just for added fun. The whole thing is CNC'd out of a chunk of aluminum because it gets HOT!
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/overviewx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/topviewx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/whitex256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/heatx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/earlyx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        DIY Quadcopter Drone (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This was actually the second drone I built, but the first one that actually flew well. That said, you can watch me crash it below.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/grassx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/skyx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/handx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        4x4x4 RGB LED Cube (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This thing looks simple, but is actually horribly complicated. There are 4x4x4=64 physical LEDs, but since these are RGB, each physical bulb is actually 3 LEDs: R, G, and B, giving us a total of 192 LEDs! We also need to rapidly pulsing the R, G, and B channels at specific duty cycles in order to acheive proper color blending. But the Arduino Uno I was using only had 6 PWM pins! I ended up daisy chaining 3 TLC5940 LED drivers which gave me 48 dimmable constant-current sinks, but that is still only 1/4 of the pins I need to control all the lights. To get around this, I used Charlieplexing to light each 4x4 layer (which happens to contain 48 LEDS) separately at such a high speed that persistence-of-vision effects trick your eye into believing they're all lit at the same time. Combining this with PWM, though, was really hard...
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/layersx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutstopx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsredx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Charlieplexing"
+          >
+            Charlieplexing
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ti.com/lit/ds/symlink/tlc5940.pdf?ts=1597020147259"
+          >
+            TLC5940
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Blinking Hardhat (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I designed blinking hardhats based on a 555 clock and a green 3W LED. Green and black were the colors for my high school FRC robotics team, the 5212 TAMSformers. All ~20 of us assembled our own hats and wore them to competition. Below you can see my friend Floyd modeling one.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/floydx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        FRC 120lb ball-shooting pull-up tank robot (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I did the CAD modeling, parts sourcing, and a large part of the design & assembly for my senior year First Robotics Competition (FRC) robot along side my highly dedicated team. The robot has tank treads to get over obstacles, can pick up and shoot dodge balls, and can actually lift its entire 120lb weight off the ground as if its doing a pull-up! I wish I had a video of the pull-up. This was the greatest team I have ever been a part of.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/wholemodelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/zoomrenderx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/chassisx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pullupx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/detailx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/teamx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pinsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/couplerx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sidex256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Unity Custom Bézier Curve Tool for Generating 2.5D Hills (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I basically implemented the Photoshop Pen Tool in Unity. The cool part is, it generates 2.5D terrain with edge colliders so that it can be used as terrain for a game.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/UnityBezierHillEditor"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=3A152K609IM"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        xkcd Inspired Sign (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I love this xkcd comic, and I wanted to make one in real life. Sadly I didn't get the lighting diffused, so the effect wasn't quite as good as desired. I would like to revisit this one at some point.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/displaysx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/ledsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/paintedx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbbotx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/stencilx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/wiresx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://xkcd.com/363/"
+          >
+            xkcd
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Automated Dorm Room (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        How do you automatically unlock your door if you're not allowed to change the locking mechanism? 3D print a custom doorknob with a built in gear, of course! I wanted a fully automated dorm room, but I wasn't really allowed to modify or damage anything that was school property. I ended up with a face-recognizing peephole which unlocks my door, 2 automatic light switch flippers, a custom smart touch screen display, as well as phone, web, & voice controls.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/fullpanelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/switchesx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/doorx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=Vg8SH7J1_kI"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Robot Object Segmentation & Localization (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I programmed a robot to segment and localize objects while looking around a playing field. This is used to extract visual features to improve training during gameplay. In the video, you can see that the robot points to the objects location and also says the color of the object.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/ispy_robot"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=wSN6pFF994I"
+          >
+            Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://hilt.cse.unt.edu"
+          >
+            Human Intelligence and Language Technologies (HiLT) Lab
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Xbox Kinect Experiments (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        The 2015 First Robotics Competition (FRC) challenge involved picking up and stacking plastic totes. I was using OpenCV and an Xbox Kinect to detect stacks of totes and count the number of totes in each stack.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/totes/totesx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        PSAT Early-release Score Checker (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        There is a long waiting period between taking the PSAT and getting your scores. After taking the PSAT my junior year, I created a website which allows you to calculate your score (to within 2 points) long before scores are actually released by your school. It spread virally across north Texas and beyond and helped thousands of Class of 2016 juniors get their scores early.
+      </div>
+      <div
+        class="p"
+      >
+        Check out some of the buzz on College Confidential.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17859494/#Comment_17859494"
+          >
+            "Wish we had known aboiut the jacob bruson link first! It would have saved a lot of time."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860891/#Comment_17860891"
+          >
+            "the raw scores which Jacob's calculator yields are ACCURATE. Thanks again!"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17880849/#Comment_17880849"
+          >
+            "palm's and Jacob's system were both accurate for my DS who got his result today"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/national-merit-scholarships/1716710-is-the-jacob-brunson-website-a-legitimate-way-to-check-your-scores.html"
+          >
+            "Is the Jacob Brunson website a legitimate way to check your scores???"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17857120/#Comment_17857120"
+          >
+            "Use this link. https://scores.jacobbrunson.me/ Only if you're anxious :)"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PSAT-Scores"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Dorm Room Automatic Light Switch (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I lived in a dorm room at the Texas Academy of Math and Science in 2014. I wanted to get into home automation, but I couldn't connect Alexa to the dorm wifi, and I couldn't take anything apart or damage the walls. So, I hacked together a system with an Arduino, Raspberry Pi, and a servo motor, to control my lights via voice, phone, & web.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=8MMJ7WfxnNw"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        OpenCV Ping Pong Ball Tracking (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I started learning about computer vision my junior year of high school. Here is my first cool demo - tracking a ping pong ball.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=G4R9qPCT4Ho"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        TangleRidge.com Golf Course Website (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        Tangle Ridge is a golf course located in my hometown of Grand Prairie, TX, and I made their website. There's actually a giant advertisement for it on the side of a water tower next to TX 360. I worked on several other websites for the City of Grand Prairie, including websites for another golf course, the mayor Ron Jensen's campaign website, the Housing & Neighborhood Services website, and more.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/tangleridgex512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/watertowerx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        ESPN Deportes Affiliate Sites (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        I got involved with a local web design company and was able to work on the websites for ESPN Deportes affiliates in Dallas, Houston, Miami, and San Francisco. I got to implement a custom audio player, an engagement rewards points system, and other neat things. It doesn't look the greatest on the Wayback Machine, but I sure was having fun getting paid to make websites.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/espn/miamix512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        2D Dynamic Lighting & Shadows with OpenGL (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This was my first experience with low-level graphics. Lights blend together and cast dynamic shadows against rigid bodies. I first created this in Java, and later ported it to JavaScript (WebGL) and also Lua (Love2D).
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/BasicLighting"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.youtube.com/watch?v=nSf1MpsWKig"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Color Code Door Lock (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This home-made smart lock uses a sequence of colors to unlock the door. It's an IoT device which allowed you to remotely (un)lock the door, change passwords, add guest passwords, log activity, and more with a custom iOS app & web interface. I designed & manufactured custom circuit boards & silicone buttons pads and sourced all of the electornics and hardware necessary to produce these on a larger scale. At some point I realized that this project was too big for one kid and it has since fell by the wayside.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/padx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/eaglex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/stillx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbax256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        uCreate Minecraft Server Mod (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        Before Minecraft had an actual creative mode, I created this mod to allow you to implement your own customizable creative mode in your Minecraft server. After creative mode was added, I pivoted the mod to focus on augmenting the short comings of the built-in creative mode.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=d0I9tA2gmgw"
+          >
+            Installation Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/uCreate"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Server Chunk (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        I created a Minecraft server listing website in 8th grade. Server owners could add their server to the site, and users could vote on their favorite sites. I created an accompanying server mod which tracked tons of statistics, like player count, uptime, & performance, and reported them back to the website. All of this data fed into a custom ranking algorithm that I felt was superior to all other listing sites.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20120715075324/http://serverchunk.com:80/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      id="sentinel"
+    />
+  </div>
+  <script
+    src="/js/projects.js"
+  />
+</body>
+`;
+
+exports[`Host: brunson.me / serves About 1`] = `
+<head>
+  <title>
+    About | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.me/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.me / serves About 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about current"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="profile"
+  >
+    <img
+      height="256"
+      id="jacob"
+      src="/img/jacob.jpg"
+      width="256"
+    />
+    <div
+      class="vertical"
+    >
+      <h2>
+        Hi, I'm Jacob.
+      </h2>
+      <p>
+        I'm a software engineer based in Austin, TX
+      </p>
+      <p>
+        I like scuba diving, making cool things, and taking photos
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Host: brunson.me /me serves 404 1`] = `
+<head>
+  <title>
+    404 | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "404";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.me /me serves 404 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="status"
+  >
+    404
+  </div>
+</body>
+`;
+
+exports[`Host: brunson.me empty path serves About 1`] = `
+<head>
+  <title>
+    About | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.me/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.me empty path serves About 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about current"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="profile"
+  >
+    <img
+      height="256"
+      id="jacob"
+      src="/img/jacob.jpg"
+      width="256"
+    />
+    <div
+      class="vertical"
+    >
+      <h2>
+        Hi, I'm Jacob.
+      </h2>
+      <p>
+        I'm a software engineer based in Austin, TX
+      </p>
+      <p>
+        I like scuba diving, making cool things, and taking photos
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Host: brunson.photos / serves Photos 1`] = `
+<head>
+  <title>
+    Photos | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.photos/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.photos / serves Photos 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos current"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <ul
+    id="gallery"
+  />
+  <div
+    id="sentinel"
+  />
+  <div
+    id="lightbox"
+  >
+    <div
+      id="lightbox-img"
+    />
+  </div>
+  <script
+    src="/js/photos.js"
+  />
+</body>
+`;
+
+exports[`Host: brunson.photos /photos serves 404 1`] = `
+<head>
+  <title>
+    404 | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "404";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.photos /photos serves 404 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="status"
+  >
+    404
+  </div>
+</body>
+`;
+
+exports[`Host: brunson.photos empty path serves Photos 1`] = `
+<head>
+  <title>
+    Photos | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "https://brunson.photos/";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: brunson.photos empty path serves Photos 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="https://brunson.me/"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="https://brunson.dev/"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos current"
+            href="https://brunson.photos/"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <ul
+    id="gallery"
+  />
+  <div
+    id="sentinel"
+  />
+  <div
+    id="lightbox"
+  >
+    <div
+      id="lightbox-img"
+    />
+  </div>
+  <script
+    src="/js/photos.js"
+  />
+</body>
+`;
+
+exports[`Host: localhost /dev serves Projects 1`] = `
+<head>
+  <title>
+    Projects | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "http://localhost:3000/dev";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: localhost /dev serves Projects 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="http://localhost:3000/me"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects current"
+            href="http://localhost:3000/dev"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="http://localhost:3000/photos"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="showcase"
+  >
+    <div
+      class="thing"
+    >
+      <h3>
+        Automatic Blinds Opener (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I rigged a stepper motor to my blinds so that I can open them by issuing an Alexa command. I can also put them on automated timers. This has been a surprisingly big quality of life improvement! And with a white 3D printed encosure, it blends right into the wall.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/betterdemo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/demo.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/stackx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/sidex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/handheld.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/blinds/topx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Alexa-controlled RGB TV Backlight (2020)
+      </h3>
+      <div
+        class="p"
+      >
+        I really like LEDs. This LED strip is individually addressible, so it can do patterns. In the video you can see the colors slowly shifting.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/backlight/picx512.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        CartPole w/ Markov Decision Process (2019)
+      </h3>
+      <div
+        class="p"
+      >
+        I solved the OpenAI Gym CartPole problem using a custom Python implementaton of policy iteration over a Markov decision process. I hope to soon apply this model to a &lt;em&gt;real&lt;/em&gt; cartpole. For the uninitiated, the goal is to keep a pole balanced on top of a cart that can move left and right. This is a machine learning algorithm, so the computer is teaching itself to balance the pole instead of me giving it specific instructions, roughly speaking.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/cartpole.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cartpole/blurryx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://gym.openai.com/envs/CartPole-v0"
+          >
+            OpenAI CartPole Gym
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=RtxI449ZjSc"
+          >
+            A great lecture from Stanford's Andrew Ng on reinforcement learning
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Storytime: 2D physics in a 3D world (Unity) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Storyime is a 2D platformer set on the pages of a popup book which exists in the 3D world! It's a really neat effect visually, and can possibly lead to some interesting mechanics.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/physics.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/projectionx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/storytime/animation.mp4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Traffic Racer (Rendering from scratch; dynamic shadows) (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        I volunteered at the Texas Biomedical Device Center (TxBDC) during my final semester of college. I developed a video game, Traffic Racer, to help rehabilitate stroke & spinal cord injury patients. Patients would engage in physical therapy by playing Traffic Racer using a specialized controller. In tandem, the patient would receive stimulation to their vagus nerve which the lab has shown improves the efficacy of the physical therapy (game). I also helped develop an app called RePlay which is a sort of physical-therapy-oriented Android games launcher.
+      </div>
+      <div
+        class="p"
+      >
+        Traffic Racer is developed in C# with Mono Game. This game is done "from scratch" meaning that I implemented all of the rendering and gameplay myself.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/loop.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/TrafficRacer/menux512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/TrafficRacer"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.utdallas.edu/txbdc/"
+          >
+            Texas Biomedical Device Center (TxBDC)
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Python ID3 Decision Tree Generator (2018)
+      </h3>
+      <div
+        class="p"
+      >
+        Generates decision trees by maximizing information gain
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PythonID3"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        High Power RGBW LED Saltwater Aquarium Lighting (2017)
+      </h3>
+      <div
+        class="p"
+      >
+        I was (re)starting my saltwater aquarium but I didn't want to deal with the heat, energy, & hassle of the old 250w metal halide system that I was previously using. I also didn't find any suitable lighting fixtures online, so I built my own. This primarily uses white and blue LEDs of a specific wavelength for ideal reef lighting, but also includes red, green, blue, and UV LEDs just for added fun. The whole thing is CNC'd out of a chunk of aluminum because it gets HOT!
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/demo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/overviewx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/topviewx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/whitex256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/heatx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/fishlight/earlyx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        DIY Quadcopter Drone (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This was actually the second drone I built, but the first one that actually flew well. That said, you can watch me crash it below.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/crash.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/grassx512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/skyx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/quadcopter/handx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        4x4x4 RGB LED Cube (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        This thing looks simple, but is actually horribly complicated. There are 4x4x4=64 physical LEDs, but since these are RGB, each physical bulb is actually 3 LEDs: R, G, and B, giving us a total of 192 LEDs! We also need to rapidly pulsing the R, G, and B channels at specific duty cycles in order to acheive proper color blending. But the Arduino Uno I was using only had 6 PWM pins! I ended up daisy chaining 3 TLC5940 LED drivers which gave me 48 dimmable constant-current sinks, but that is still only 1/4 of the pins I need to control all the lights. To get around this, I used Charlieplexing to light each 4x4 layer (which happens to contain 48 LEDS) separately at such a high speed that persistence-of-vision effects trick your eye into believing they're all lit at the same time. Combining this with PWM, though, was really hard...
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/patterns.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/layersx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/cube/solids.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutstopx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/cube/gutsredx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Charlieplexing"
+          >
+            Charlieplexing
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ti.com/lit/ds/symlink/tlc5940.pdf?ts=1597020147259"
+          >
+            TLC5940
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Blinking Hardhat (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I designed blinking hardhats based on a 555 clock and a green 3W LED. Green and black were the colors for my high school FRC robotics team, the 5212 TAMSformers. All ~20 of us assembled our own hats and wore them to competition. Below you can see my friend Floyd modeling one.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/hardhat/floydx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        FRC 120lb ball-shooting pull-up tank robot (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I did the CAD modeling, parts sourcing, and a large part of the design & assembly for my senior year First Robotics Competition (FRC) robot along side my highly dedicated team. The robot has tank treads to get over obstacles, can pick up and shoot dodge balls, and can actually lift its entire 120lb weight off the ground as if its doing a pull-up! I wish I had a video of the pull-up. This was the greatest team I have ever been a part of.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/shooting.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pivot.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/robot/driving.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/wholemodelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/zoomrenderx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/chassisx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pullupx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/detailx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/teamx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/pinsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/couplerx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sidex256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Unity Custom Bézier Curve Tool for Generating 2.5D Hills (2016)
+      </h3>
+      <div
+        class="p"
+      >
+        I basically implemented the Photoshop Pen Tool in Unity. The cool part is, it generates 2.5D terrain with edge colliders so that it can be used as terrain for a game.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/bezier/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/UnityBezierHillEditor"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=3A152K609IM"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        xkcd Inspired Sign (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I love this xkcd comic, and I wanted to make one in real life. Sadly I didn't get the lighting diffused, so the effect wasn't quite as good as desired. I would like to revisit this one at some point.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/displaysx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/ledsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/paintedx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbbotx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/stencilx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/wiresx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://xkcd.com/363/"
+          >
+            xkcd
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Automated Dorm Room (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        How do you automatically unlock your door if you're not allowed to change the locking mechanism? 3D print a custom doorknob with a built in gear, of course! I wanted a fully automated dorm room, but I wasn't really allowed to modify or damage anything that was school property. I ended up with a face-recognizing peephole which unlocks my door, 2 automatic light switch flippers, a custom smart touch screen display, as well as phone, web, & voice controls.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/loop.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/fullpanelx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/switchesx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/3dprint.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/autoroom/doorx256.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=Vg8SH7J1_kI"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Robot Object Segmentation & Localization (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        I programmed a robot to segment and localize objects while looking around a playing field. This is used to extract visual features to improve training during gameplay. In the video, you can see that the robot points to the objects location and also says the color of the object.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/nao/demo.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/ispy_robot"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=wSN6pFF994I"
+          >
+            Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://hilt.cse.unt.edu"
+          >
+            Human Intelligence and Language Technologies (HiLT) Lab
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Xbox Kinect Experiments (2015)
+      </h3>
+      <div
+        class="p"
+      >
+        The 2015 First Robotics Competition (FRC) challenge involved picking up and stacking plastic totes. I was using OpenCV and an Xbox Kinect to detect stacks of totes and count the number of totes in each stack.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/totes/totesx256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        PSAT Early-release Score Checker (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        There is a long waiting period between taking the PSAT and getting your scores. After taking the PSAT my junior year, I created a website which allows you to calculate your score (to within 2 points) long before scores are actually released by your school. It spread virally across north Texas and beyond and helped thousands of Class of 2016 juniors get their scores early.
+      </div>
+      <div
+        class="p"
+      >
+        Check out some of the buzz on College Confidential.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17859494/#Comment_17859494"
+          >
+            "Wish we had known aboiut the jacob bruson link first! It would have saved a lot of time."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860891/#Comment_17860891"
+          >
+            "the raw scores which Jacob's calculator yields are ACCURATE. Thanks again!"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17880849/#Comment_17880849"
+          >
+            "palm's and Jacob's system were both accurate for my DS who got his result today"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17860345/#Comment_17860345"
+          >
+            "Finally got the paper scores out here on the prairie. Jacob Brunson's site missed it by 2 points. They said 209 and the actual was 207."
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/national-merit-scholarships/1716710-is-the-jacob-brunson-website-a-legitimate-way-to-check-your-scores.html"
+          >
+            "Is the Jacob Brunson website a legitimate way to check your scores???"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://talk.collegeconfidential.com/discussion/comment/17857120/#Comment_17857120"
+          >
+            "Use this link. https://scores.jacobbrunson.me/ Only if you're anxious :)"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/PSAT-Scores"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Dorm Room Automatic Light Switch (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I lived in a dorm room at the Texas Academy of Math and Science in 2014. I wanted to get into home automation, but I couldn't connect Alexa to the dorm wifi, and I couldn't take anything apart or damage the walls. So, I hacked together a system with an Arduino, Raspberry Pi, and a servo motor, to control my lights via voice, phone, & web.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/lightswitch/thumbsup.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=8MMJ7WfxnNw"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        OpenCV Ping Pong Ball Tracking (2014)
+      </h3>
+      <div
+        class="p"
+      >
+        I started learning about computer vision my junior year of high school. Here is my first cool demo - tracking a ping pong ball.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/pingpong/pingpong.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=G4R9qPCT4Ho"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        TangleRidge.com Golf Course Website (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        Tangle Ridge is a golf course located in my hometown of Grand Prairie, TX, and I made their website. There's actually a giant advertisement for it on the side of a water tower next to TX 360. I worked on several other websites for the City of Grand Prairie, including websites for another golf course, the mayor Ron Jensen's campaign website, the Housing & Neighborhood Services website, and more.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/tangleridgex512.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/webdev/watertowerx512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        ESPN Deportes Affiliate Sites (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        I got involved with a local web design company and was able to work on the websites for ESPN Deportes affiliates in Dallas, Houston, Miami, and San Francisco. I got to implement a custom audio player, an engagement rewards points system, and other neat things. It doesn't look the greatest on the Wayback Machine, but I sure was having fun getting paid to make websites.
+      </div>
+      <div
+        class="media small"
+      >
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/espn/miamix512.jpeg"
+        />
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20141217103545/http://espndeportesmiami.com/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        2D Dynamic Lighting & Shadows with OpenGL (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This was my first experience with low-level graphics. Lights blend together and cast dynamic shadows against rigid bodies. I first created this in Java, and later ported it to JavaScript (WebGL) and also Lua (Love2D).
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo.mp4"
+          />
+        </div>
+        <div
+          class="img big"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/bigdemo2.mp4"
+          />
+        </div>
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/BasicLighting"
+          >
+            Source
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.youtube.com/watch?v=nSf1MpsWKig"
+          >
+            Video
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Color Code Door Lock (2013)
+      </h3>
+      <div
+        class="p"
+      >
+        This home-made smart lock uses a sequence of colors to unlock the door. It's an IoT device which allowed you to remotely (un)lock the door, change passwords, add guest passwords, log activity, and more with a custom iOS app & web interface. I designed & manufactured custom circuit boards & silicone buttons pads and sourced all of the electornics and hardware necessary to produce these on a larger scale. At some point I realized that this project was too big for one kid and it has since fell by the wayside.
+      </div>
+      <div
+        class="media"
+      >
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/demo.mp4"
+          />
+        </div>
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/cool.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/padx256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video small"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/chase.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbsx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/eaglex256.jpeg"
+        />
+        <div
+          autoplay="autoplay"
+          class="video big"
+          loop="loop"
+          muted="muted"
+          playsinline="playsinline"
+        >
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.webm"
+          />
+          <source
+            src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/web.mp4"
+          />
+        </div>
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/stillx256.jpeg"
+        />
+        <div
+          class="img small"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/doorlock/pcbax256.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        uCreate Minecraft Server Mod (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        Before Minecraft had an actual creative mode, I created this mod to allow you to implement your own customizable creative mode in your Minecraft server. After creative mode was added, I pivoted the mod to focus on augmenting the short comings of the built-in creative mode.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=d0I9tA2gmgw"
+          >
+            Installation Video
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jacobbrunson/uCreate"
+          >
+            Source
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="thing"
+    >
+      <h3>
+        Server Chunk (2012)
+      </h3>
+      <div
+        class="p"
+      >
+        I created a Minecraft server listing website in 8th grade. Server owners could add their server to the site, and users could vote on their favorite sites. I created an accompanying server mod which tracked tons of statistics, like player count, uptime, & performance, and reported them back to the website. All of this data fed into a custom ranking algorithm that I felt was superior to all other listing sites.
+      </div>
+      <div
+        class="p"
+      />
+      <h4>
+        Links
+      </h4>
+      <ul
+        class="links"
+      >
+        <li>
+          <a
+            href="https://web.archive.org/web/20120715075324/http://serverchunk.com:80/"
+          >
+            Wayback Machine
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      id="sentinel"
+    />
+  </div>
+  <script
+    src="/js/projects.js"
+  />
+</body>
+`;
+
+exports[`Host: localhost /invalid serves 404 1`] = `
+<head>
+  <title>
+    404 | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "404";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: localhost /invalid serves 404 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="http://localhost:3000/me"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="http://localhost:3000/dev"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="http://localhost:3000/photos"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="status"
+  >
+    404
+  </div>
+</body>
+`;
+
+exports[`Host: localhost /me serves About 1`] = `
+<head>
+  <title>
+    About | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "http://localhost:3000/me";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: localhost /me serves About 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about current"
+            href="http://localhost:3000/me"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="http://localhost:3000/dev"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="http://localhost:3000/photos"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="profile"
+  >
+    <img
+      height="256"
+      id="jacob"
+      src="/img/jacob.jpg"
+      width="256"
+    />
+    <div
+      class="vertical"
+    >
+      <h2>
+        Hi, I'm Jacob.
+      </h2>
+      <p>
+        I'm a software engineer based in Austin, TX
+      </p>
+      <p>
+        I like scuba diving, making cool things, and taking photos
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Host: localhost /me/ serves About 1`] = `
+<head>
+  <title>
+    About | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "http://localhost:3000/me";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: localhost /me/ serves About 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about current"
+            href="http://localhost:3000/me"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="http://localhost:3000/dev"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos"
+            href="http://localhost:3000/photos"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    id="profile"
+  >
+    <img
+      height="256"
+      id="jacob"
+      src="/img/jacob.jpg"
+      width="256"
+    />
+    <div
+      class="vertical"
+    >
+      <h2>
+        Hi, I'm Jacob.
+      </h2>
+      <p>
+        I'm a software engineer based in Austin, TX
+      </p>
+      <p>
+        I like scuba diving, making cool things, and taking photos
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Host: localhost /photos serves Photos 1`] = `
+<head>
+  <title>
+    Photos | Jacob Brunson
+  </title>
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/SF-Thin.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    crossorigin="anonymous"
+    href="/font/OpenSans.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    href="/css/style.css"
+    rel="stylesheet"
+  />
+  <style>
+    #name::after {
+  content: "http://localhost:3000/photos";
+}
+  </style>
+</head>
+`;
+
+exports[`Host: localhost /photos serves Photos 2`] = `
+<body>
+  <header>
+    <a
+      href="https://brunson.me"
+    >
+      <h1
+        id="name"
+      >
+        Brunson
+      </h1>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="about"
+            href="http://localhost:3000/me"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            class="projects"
+            href="http://localhost:3000/dev"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="photos current"
+            href="http://localhost:3000/photos"
+          >
+            photos
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/jacobbrunsonburner/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/ig.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://github.com/jacobbrunson"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/gh.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jacob-brunson-42b61b142/"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/in.svg"
+              width="32"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC0PM_FnwDoi9fLmsDaiI7Nw"
+            target="_blank"
+          >
+            <img
+              class="social"
+              height="32"
+              src="/img/yt.svg"
+              width="32"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <ul
+    id="gallery"
+  />
+  <div
+    id="sentinel"
+  />
+  <div
+    id="lightbox"
+  >
+    <div
+      id="lightbox-img"
+    />
+  </div>
+  <script
+    src="/js/photos.js"
+  />
+</body>
+`;

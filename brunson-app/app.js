@@ -18,11 +18,14 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
+app.disable('x-powered-by');
 
 // Template routes
 const routes = [];
 
-const makeAbsolutePath = (req) => (p) => req.hostname === "localhost" ? `http://localhost:3000/${p}` : `https://brunson.${p}/`;
+const isLocal = (req) => req.hostname === "localhost";
+
+const makeAbsolutePath = (req) => (p) => isLocal(req) ? `http://localhost:3000/${p}` : `https://brunson.${p}/`;
 
 const makeRoute = (extension, title, locals) => {
   const handler = (req, res) => {
@@ -37,9 +40,11 @@ const makeRoute = (extension, title, locals) => {
   })
 
   app.get(`/${extension}/`, (req, res, next) => {
-    if (req.hostname === "localhost") {
+    if (isLocal(req)) {
       handler(req, res);
+      return;
     }
+    next();
   })
 };
 
@@ -50,9 +55,11 @@ app.get("/", (req, res, next) => {
       return;
     }
   }
-  if (req.hostname === "localhost") {
+  if (isLocal(req)) {
     res.redirect("/me");
+    return;
   }
+  next();
 });
 
 makeRoute("me", "About");
@@ -66,8 +73,8 @@ app.get("/api/photos/:page", (req, res) => {
 
   const startIndex = page * PAGE_SIZE;
   const endIndex = (page + 1) * PAGE_SIZE;
-  console.log(page, startIndex, endIndex);
   const hasNextPage = endIndex < photos.length;
+
   res.send({
     photos: photos.slice(startIndex, endIndex),
     hasNextPage,
@@ -80,13 +87,13 @@ app.use((_, __, next) => {
 });
 
 // General error handler
-app.use(function(err, req, res) {
+app.use(function(err, req, res, _) {
   const extension = "error";
   const error = req.app.get("env") === "development" ? err : undefined;
   const status = err.status || 500;
   const absolutePath = makeAbsolutePath(req);
   res.status(status);
-  res.render(extension, { extension, absolutePath: (e) => e === extension ? status : absolutePath(e), error, status });
+  res.render(extension, { extension, absolutePath: (e) => e === extension ? status : absolutePath(e), error, status, title: status });
 });
 
 module.exports = app;
