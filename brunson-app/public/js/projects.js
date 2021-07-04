@@ -27,11 +27,6 @@ const next = () => {
     for (let i = children.length - 1; i >= 0; i--) {
       video.prepend(children[i]);
     }
-    // for (const child of video.childNodes) {
-    //   const source = document.createElement("video");
-    //   source.src = child.getAttribute("src");
-    //   child.replaceWith(source);
-    // }
     div.replaceWith(video);
   });
   thing.style = "display: block;";

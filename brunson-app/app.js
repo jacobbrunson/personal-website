@@ -1,26 +1,25 @@
 const createError = require("http-errors");
 const express = require("express");
 const path = require("path");
-const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
+// App config
 const PAGE_SIZE = 50;
 const photos = require("./photos/photos.json").reverse();
-
 const projects = require("./projects/projects.json");
 
+// App setup
 const app = express();
 
-// view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+// Template routes
 const routes = [];
 
 const makeAbsolutePath = (req) => (p) => req.hostname === "localhost" ? `http://localhost:3000/${p}` : `https://brunson.${p}/`;
@@ -56,11 +55,11 @@ app.get("/", (req, res, next) => {
   }
 });
 
-
 makeRoute("me", "About");
 makeRoute("dev", "Projects", { projects });
 makeRoute("photos", "Photos", ({ query }) => ({ allowDownload: query.download !== undefined }));
 
+// API routes
 app.get("/api/photos", (_, res) => res.redirect("/api/photos/0"));
 app.get("/api/photos/:page", (req, res) => {
   const page = parseInt(req.params.page);
@@ -81,7 +80,7 @@ app.use((_, __, next) => {
 });
 
 // General error handler
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   const extension = "error";
   const error = req.app.get("env") === "development" ? err : undefined;
   const status = err.status || 500;

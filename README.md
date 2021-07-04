@@ -20,7 +20,7 @@ Note that in dev mode each domain has it's own subroute:
 
 # Uploading photos
 
-`cd upload.nosync`
+`cd photos`
 
 `sh upload.sh`
 
