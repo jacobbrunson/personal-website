@@ -1,11 +1,17 @@
 # Jacob Brunson
 
+My personal website.
+
 This project is hosted across 3 domains:
 * https://brunson.me
 * https://brunson.dev
 * https://brunson.photos
 
 # Local development
+
+Everything you need is inside the `brunson-app` directory
+
+`cd brunson-app`
 
 You can start the local dev server by running:
 
@@ -43,3 +49,24 @@ Then you will need to deploy the app.
 Note that this program adds files to a zip and then uploads it to the server. If you add new files that you're expecting to be deployed, you must modify the deployment script.
 
 This script assumes you're automatically authenticated to the server via SSH keys.
+
+# Docker Containers
+
+This application is based on two containers:
+
+1. `brunson-app`
+2. `brunson-proxy`
+
+`brunson-app` is a Node application served on port 3000
+
+`brunson-proxy` is a Caddy server which handles reverse-proxying for the 3 domains and also manages SSL certificates. This container has a special `caddy_data` volume which is important.
+
+If you need to debug something with the containers, you can set them up: (run in repo root)
+
+`docker-compose up`
+
+`docker-compose up -d` (Background)
+
+Or take them down:
+
+`docker-compose down`
