@@ -91,7 +91,7 @@ exports[`Host: brunson.dev / serves Projects 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -1606,7 +1606,7 @@ exports[`Host: brunson.dev /dev serves 404 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -1741,7 +1741,7 @@ exports[`Host: brunson.dev empty path serves Projects 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3256,7 +3256,7 @@ exports[`Host: brunson.me / serves About 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3313,7 +3313,47 @@ exports[`Host: brunson.me / serves About 2`] = `
       <p>
         I like scuba diving, making cool things, and taking photos
       </p>
+      <p>
+        Fun fact: each of the pages on this website has its own domain: 
+        <br />
+         
+        <a
+          class="https://brunson.me current"
+          href="https://brunson.me/"
+        >
+          https://brunson.me
+        </a>
+        , 
+        <a
+          class="https://brunson.dev"
+          href="https://brunson.dev/"
+        >
+          https://brunson.dev
+        </a>
+        , and 
+        <a
+          class="https://brunson.photos"
+          href="https://brunson.photos/"
+        >
+          https://brunson.photos
+        </a>
+      </p>
     </div>
+  </div>
+  <div
+    id="cta"
+  >
+    <a
+      href="https://github.com/jacobbrunson/personal-website"
+      target="_blank"
+    >
+      View Source on 
+      <img
+        class="social inline"
+        src="/img/gh.svg"
+      />
+       GitHub
+    </a>
   </div>
 </body>
 `;
@@ -3409,7 +3449,7 @@ exports[`Host: brunson.me /me serves 404 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3544,7 +3584,7 @@ exports[`Host: brunson.me empty path serves About 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3601,7 +3641,47 @@ exports[`Host: brunson.me empty path serves About 2`] = `
       <p>
         I like scuba diving, making cool things, and taking photos
       </p>
+      <p>
+        Fun fact: each of the pages on this website has its own domain: 
+        <br />
+         
+        <a
+          class="https://brunson.me current"
+          href="https://brunson.me/"
+        >
+          https://brunson.me
+        </a>
+        , 
+        <a
+          class="https://brunson.dev"
+          href="https://brunson.dev/"
+        >
+          https://brunson.dev
+        </a>
+        , and 
+        <a
+          class="https://brunson.photos"
+          href="https://brunson.photos/"
+        >
+          https://brunson.photos
+        </a>
+      </p>
     </div>
+  </div>
+  <div
+    id="cta"
+  >
+    <a
+      href="https://github.com/jacobbrunson/personal-website"
+      target="_blank"
+    >
+      View Source on 
+      <img
+        class="social inline"
+        src="/img/gh.svg"
+      />
+       GitHub
+    </a>
   </div>
 </body>
 `;
@@ -3697,7 +3777,7 @@ exports[`Host: brunson.photos / serves Photos 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3843,7 +3923,7 @@ exports[`Host: brunson.photos /photos serves 404 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -3978,7 +4058,7 @@ exports[`Host: brunson.photos empty path serves Photos 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -4124,7 +4204,7 @@ exports[`Host: localhost /dev serves Projects 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -5639,7 +5719,7 @@ exports[`Host: localhost /invalid serves 404 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -5774,7 +5854,7 @@ exports[`Host: localhost /me serves About 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -5831,7 +5911,47 @@ exports[`Host: localhost /me serves About 2`] = `
       <p>
         I like scuba diving, making cool things, and taking photos
       </p>
+      <p>
+        Fun fact: each of the pages on this website has its own domain: 
+        <br />
+         
+        <a
+          class="https://brunson.me current"
+          href="http://localhost:3000/me"
+        >
+          https://brunson.me
+        </a>
+        , 
+        <a
+          class="https://brunson.dev"
+          href="http://localhost:3000/dev"
+        >
+          https://brunson.dev
+        </a>
+        , and 
+        <a
+          class="https://brunson.photos"
+          href="http://localhost:3000/photos"
+        >
+          https://brunson.photos
+        </a>
+      </p>
     </div>
+  </div>
+  <div
+    id="cta"
+  >
+    <a
+      href="https://github.com/jacobbrunson/personal-website"
+      target="_blank"
+    >
+      View Source on 
+      <img
+        class="social inline"
+        src="/img/gh.svg"
+      />
+       GitHub
+    </a>
   </div>
 </body>
 `;
@@ -5927,7 +6047,7 @@ exports[`Host: localhost /me/ serves About 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img
@@ -5984,7 +6104,47 @@ exports[`Host: localhost /me/ serves About 2`] = `
       <p>
         I like scuba diving, making cool things, and taking photos
       </p>
+      <p>
+        Fun fact: each of the pages on this website has its own domain: 
+        <br />
+         
+        <a
+          class="https://brunson.me current"
+          href="http://localhost:3000/me"
+        >
+          https://brunson.me
+        </a>
+        , 
+        <a
+          class="https://brunson.dev"
+          href="http://localhost:3000/dev"
+        >
+          https://brunson.dev
+        </a>
+        , and 
+        <a
+          class="https://brunson.photos"
+          href="http://localhost:3000/photos"
+        >
+          https://brunson.photos
+        </a>
+      </p>
     </div>
+  </div>
+  <div
+    id="cta"
+  >
+    <a
+      href="https://github.com/jacobbrunson/personal-website"
+      target="_blank"
+    >
+      View Source on 
+      <img
+        class="social inline"
+        src="/img/gh.svg"
+      />
+       GitHub
+    </a>
   </div>
 </body>
 `;
@@ -6080,7 +6240,7 @@ exports[`Host: localhost /photos serves Photos 2`] = `
             />
           </a>
           <a
-            href="https://github.com/jacobbrunson"
+            href="https://github.com/jacobbrunson/personal-website"
             target="_blank"
           >
             <img

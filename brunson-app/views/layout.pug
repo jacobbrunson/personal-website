@@ -1,7 +1,6 @@
 mixin link(e, name)
-  li
-    - const maybeCurrentClass = e === extension ? "current" : undefined;
-    a(href=absolutePath(e) class=[name, maybeCurrentClass])= name
+  - const maybeCurrentClass = e === extension ? "current" : undefined;
+  a(href=absolutePath(e) class=[name, maybeCurrentClass])= name
 
 doctype html
 html(lang="en")
@@ -21,14 +20,17 @@ html(lang="en")
         h1#name Brunson
       nav
         ul
-          +link("me", "about")
-          +link("dev", "projects")
-          +link("photos", "photos")
+          li
+            +link("me", "about")
+          li
+            +link("dev", "projects")
+          li
+            +link("photos", "photos")
         ul
           li
             a(href="https://www.instagram.com/jacobbrunsonburner/" target="_blank")
               img(src="/img/ig.svg" class="social" width="32" height="32")
-            a(href="https://github.com/jacobbrunson" target="_blank")
+            a(href="https://github.com/jacobbrunson/personal-website" target="_blank")
               img(src="/img/gh.svg" class="social" width="32" height="32")
             a(href="https://www.linkedin.com/in/jacob-brunson-42b61b142/" target="_blank")
               img(src="/img/in.svg" class="social" width="32" height="32")

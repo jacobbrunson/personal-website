@@ -18,7 +18,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
-app.disable('x-powered-by');
+app.disable("x-powered-by");
 
 // Template routes
 const routes = [];

@@ -72,7 +72,7 @@ header {
   :root {
     --header-height: 44px;
     --name-font-size: 1.6em;
-    --nav-font-size: 1.4em;
+    --nav-font-size: 1.3em;
   }
 }
 
@@ -80,7 +80,7 @@ header {
   :root {
     --header-height: 48px;
     --name-font-size: 1.8em;
-    --nav-font-size: 1.6em;
+    --nav-font-size: 1.5em;
   }
 }
 
@@ -121,6 +121,7 @@ body {
   font-family: "Open Sans";
   background-color: #262626;
   color: #ddd;
+  font-size: 14pt;
 }
 
 * {
@@ -206,25 +207,25 @@ nav a.current {
   font-weight: bold;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   nav a {
     margin-left: 18px;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   nav a {
     margin-left: 24px;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   nav a {
     margin-left: 30px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   nav a {
     margin-left: 36px;
   }
@@ -270,8 +271,9 @@ footer {
 /* brunson.me */
 
 #profile {
-  width: 800px;
-  margin: 200px auto;
+  width: 95%;
+  max-width: 1000px; 
+  margin: 100px auto 125px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,6 +284,29 @@ img#jacob {
   height: 256px;
   border-radius: 128px;
   margin-right: 50px;
+}
+
+#cta {
+  text-align: center;
+  transition: text-shadow 0.2s;
+  font-size: 24px;
+}
+
+#cta:hover {
+  text-shadow: 0 0 8px #fff;
+}
+
+#cta .social {
+  margin: 0 0 0 2px;
+  width: 24px;
+  height: 24px;
+  transform: translateY(4px);
+}
+
+@media (min-width: 1000px) {
+  #profile {
+    margin: 200px auto;
+  }
 }
 
 /* brunson.dev */

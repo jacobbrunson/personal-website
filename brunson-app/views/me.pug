@@ -1,9 +1,12 @@
 extends layout.pug
 
 block content
-  div(id="profile")
+  #profile
     img(id="jacob" src="/img/jacob.jpg" width="256" height="256")
-    div(class="vertical")
+    .vertical
       h2 Hi, I'm Jacob.
       p I'm a software engineer based in Austin, TX
       p I like scuba diving, making cool things, and taking photos
+      p Fun fact: each of the pages on this website has its own domain: #[br] #[+link("me", "https://brunson.me")], #[+link("dev", "https://brunson.dev")], and #[+link("photos", "https://brunson.photos")]
+  #cta
+    a(href="https://github.com/jacobbrunson/personal-website" target="_blank") View Source on #[img(src="/img/gh.svg", class=["social", "inline"])] GitHub
