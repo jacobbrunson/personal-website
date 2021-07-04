@@ -1,4 +1,6 @@
-# Jacob Brunson
+# Jacob Brunson Personal Website
+
+[![brunson-app CI](https://github.com/jacobbrunson/personal-website/actions/workflows/brunson-app-test.yml/badge.svg)](https://github.com/jacobbrunson/personal-website/actions/workflows/brunson-app-test.yml)
 
 My personal website.
 
@@ -24,19 +26,25 @@ Note that in dev mode each domain has it's own subroute:
 * https://brunson.dev <-> http://localhost:3000/dev
 * https://brunson.photos <-> http://localhost:3000/photos
 
+Run the test suite:
+
+`npm test`
+
 # Uploading photos
 
 `cd photos`
 
+Add photos to the `upload` directory (e.g. `brunson-app/photos/upload/CoolPic.jpeg`)
+
 `sh upload.sh`
 
-`projects.json` will be updated automatically, but you will still need to deploy the app.
+`photos.json` will be updated automatically, but you will still need to deploy the app.
 
 # Adding new projects
 
 `cd projects`
 
-Edit `projects.json` manually and add media files to the `media/` directory.
+Edit `projects.json` manually and add media files to the `media/` directory (e.g. `brunson-app/projects/media/_thumbs/thing/pic.jpeg`)
 
 `sh sync.sh`
 

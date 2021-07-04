@@ -1,3 +1,12 @@
+# Disable automatic http -> https redirects and implement our own
+# to save on the http://www. case.
+# With auto redirects it does http://www. -> https://www. -> https://.
+# With this config it does http://www. -> https://.
+
+# Note that in many cases this may be useless for the .dev domain,
+# because the TLD is included in browsers' HSTS preload-list[1].
+# [1]: https://en.wikipedia.org/wiki/.dev
+
 {
   auto_https disable_redirects
 }
