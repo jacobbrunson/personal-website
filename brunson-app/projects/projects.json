@@ -350,7 +350,7 @@
       {
         "type": "img",
         "size": "small",
-        "source": "robot/sexy512.jpeg"
+        "source": "robot/sexyx256.jpeg"
       },
       {
         "type": "video",
@@ -452,7 +452,7 @@
       {
         "type": "img",
         "size": "big",
-        "source": "xkcd/sign.jpeg"
+        "source": "xkcd/signx512.jpeg"
       },
       {
         "type": "img",
@@ -462,7 +462,7 @@
       {
         "type": "img",
         "size": "small",
-        "source": "xkcd/concept.png"
+        "source": "xkcd/conceptx256.jpeg"
       },
       {
         "type": "img",
@@ -487,7 +487,7 @@
       {
         "type": "img",
         "size": "small",
-        "source": "xkcd/pcbtobx256.jpeg"
+        "source": "xkcd/pcbtopx256.jpeg"
       },
       {
         "type": "img",
@@ -754,7 +754,7 @@
       {
         "type": "img",
         "size": "big",
-        "source": "2dlights/rgbmyx512.jpeg"
+        "source": "2dlights/rgbcmyx512.jpeg"
       },
       {
         "type": "video",

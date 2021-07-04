@@ -10,7 +10,7 @@ mixin thing(project)
       .media(class=maybeSmallClass)
         each media in project.media
           if media.type === "img"
-            div(class=["img", media.size] src=`https://cdn.brunson.dev/projects/media/_thumbs/${media.source}`)
+            div(class=["img", media.size] src=media.source.startsWith("http") ? media.source : `https://cdn.brunson.dev/projects/media/_thumbs/${media.source}`)
           else if media.type === "video"
             div(class=["video", media.size] autoplay loop muted playsinline)
               each source in media.sources

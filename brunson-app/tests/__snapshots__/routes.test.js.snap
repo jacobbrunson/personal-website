@@ -672,7 +672,7 @@ exports[`Host: brunson.dev / serves Projects 2`] = `
         </div>
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexyx256.jpeg"
         />
         <div
           autoplay="autoplay"
@@ -810,15 +810,15 @@ exports[`Host: brunson.dev / serves Projects 2`] = `
       >
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/signx512.jpeg"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+          src="https://imgs.xkcd.com/comics/reset.png"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/conceptx256.jpeg"
         />
         <div
           class="img small"
@@ -838,7 +838,7 @@ exports[`Host: brunson.dev / serves Projects 2`] = `
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtopx256.jpeg"
         />
         <div
           class="img small"
@@ -1306,7 +1306,7 @@ exports[`Host: brunson.dev / serves Projects 2`] = `
         </div>
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbcmyx512.jpeg"
         />
         <div
           autoplay="autoplay"
@@ -2322,7 +2322,7 @@ exports[`Host: brunson.dev empty path serves Projects 2`] = `
         </div>
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexyx256.jpeg"
         />
         <div
           autoplay="autoplay"
@@ -2460,15 +2460,15 @@ exports[`Host: brunson.dev empty path serves Projects 2`] = `
       >
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/signx512.jpeg"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+          src="https://imgs.xkcd.com/comics/reset.png"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/conceptx256.jpeg"
         />
         <div
           class="img small"
@@ -2488,7 +2488,7 @@ exports[`Host: brunson.dev empty path serves Projects 2`] = `
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtopx256.jpeg"
         />
         <div
           class="img small"
@@ -2956,7 +2956,7 @@ exports[`Host: brunson.dev empty path serves Projects 2`] = `
         </div>
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbcmyx512.jpeg"
         />
         <div
           autoplay="autoplay"
@@ -4705,7 +4705,7 @@ exports[`Host: localhost /dev serves Projects 2`] = `
         </div>
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexy512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/robot/sexyx256.jpeg"
         />
         <div
           autoplay="autoplay"
@@ -4843,15 +4843,15 @@ exports[`Host: localhost /dev serves Projects 2`] = `
       >
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/sign.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/signx512.jpeg"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/https://imgs.xkcd.com/comics/reset.png"
+          src="https://imgs.xkcd.com/comics/reset.png"
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/concept.png"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/conceptx256.jpeg"
         />
         <div
           class="img small"
@@ -4871,7 +4871,7 @@ exports[`Host: localhost /dev serves Projects 2`] = `
         />
         <div
           class="img small"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtobx256.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/xkcd/pcbtopx256.jpeg"
         />
         <div
           class="img small"
@@ -5339,7 +5339,7 @@ exports[`Host: localhost /dev serves Projects 2`] = `
         </div>
         <div
           class="img big"
-          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbmyx512.jpeg"
+          src="https://cdn.brunson.dev/projects/media/_thumbs/2dlights/rgbcmyx512.jpeg"
         />
         <div
           autoplay="autoplay"
