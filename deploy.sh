@@ -9,8 +9,8 @@ ssh jacob@brunson.me << EOF
   cd personal-website
   echo "Stopping existing Docker containers"
   docker-compose down
-  echo "Starting Docker containers"
-  docker-compose up -d
+  echo "Recreating Docker containers"
+  docker-compose up -d --force-recreate --build
 EOF
 
 echo "Deployment complete"
