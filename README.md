@@ -54,7 +54,7 @@ Then you will need to deploy the app.
 
 `sh deploy.sh`
 
-Note that this program adds files to a zip and then uploads it to the server. If you add new files that you're expecting to be deployed, you must modify the deployment script.
+Note that this script clones the public Git repo. If you add new files that you're expecting to be deployed, you must push your changes.
 
 This script assumes you're automatically authenticated to the server via SSH keys.
 
