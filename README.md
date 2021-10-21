@@ -78,3 +78,5 @@ If you need to debug something with the containers, you can set them up: (run in
 Or take them down:
 
 `docker-compose down`
+
+test
