@@ -49,3 +49,17 @@ www.brunson.photos {
 brunson.photos {
   reverse_proxy brunson-app:3000
 }
+
+http://meacob.com {
+  redir https://meacob.com{uri} 301
+}
+http://www.meacob.com {
+  redir https://meacob.com{uri} 301
+}
+www.meacob.com {
+  redir https://meacob.com{uri} 301
+}
+meacob.com {
+  root * /srv/static
+  file_server
+}

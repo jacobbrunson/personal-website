@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meagan & Jacob</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Open Sans";
+        background-color: #262626;
+        color: #ddd;
+        font-size: 14pt;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      #gallery {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid #262626;
+      }
+
+      #gallery img {
+        height: 200px;
+        object-fit: cover;
+        box-sizing: border-box;
+        display: block;
+        border: 2px solid #262626;
+        background-color: #111;
+        cursor: pointer;
+      }
+
+      #sentinel {
+        width: 100%;
+        height: 0;
+      }
+
+      #lightbox {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #lightbox-img {
+        width: 80%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+
+      #lightbox a {
+        position: absolute;
+        height: 40px;
+        top: calc(5% - 20px);
+        background: none;
+        border: none;
+        color: #539ba1;
+        font-family: "SF";
+        font-size: 40px;
+        cursor: pointer;
+      }
+
+      @media (orientation: portrait) {
+        #lightbox-img {
+          width: 100%;
+          height: 90%;
+        }
+      }
+
+      .p {
+        margin: 20px 0;
+        font-size: 14pt;
+      }
+
+      .links {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Meagan & Jacob</h1>
+    <h4>(meacob? jeagan?)</h4>
+    <ul id="gallery"></ul>
+    <div id="sentinel"></div>
+    <div id="lightbox"><div id="lightbox-img"></div></div>
+    <script>
+      const aspectRatio = (img) => {
+        if (img.complete) {
+          return img.naturalWidth / img.naturalHeight;
+        }
+      };
+
+      let hasNextPage = true;
+      let currentPage = 0;
+      let isIntersecting = false;
+
+      const nextPage = async () => {
+        await fetchPhotoNames(currentPage);
+        imageFlow(gallery);
+        currentPage++;
+      };
+
+      const intersectionObserver = new IntersectionObserver(
+        async (entries) => {
+          isIntersecting = entries[0].isIntersecting;
+
+          if (!hasNextPage || !isIntersecting) {
+            return;
+          }
+
+          nextPage();
+
+          setTimeout(() => {
+            if (isIntersecting) {
+              nextPage();
+            }
+          }, 500);
+        },
+        {
+          rootMargin: "400px",
+          threshold: 0,
+        }
+      );
+      intersectionObserver.observe(document.getElementById("sentinel"));
+
+      const rowHeight = 200;
+
+      const IMAGES_URL = "/img";
+      const NUM_PHOTOS = 10;
+      const PAGE_SIZE = 20;
+
+      const fetchPhotoNames = async (pageIndex) => {
+        const startIndex = pageIndex * PAGE_SIZE;
+        const endIndex = Math.min(startIndex + PAGE_SIZE, NUM_PHOTOS);
+
+        hasNextPage = endIndex + 1 < NUM_PHOTOS;
+
+        const promises = [];
+
+        for (let i = startIndex; i < endIndex; i++) {
+          const img = new Image();
+          img.src = `${IMAGES_URL}/${i}.jpg`;
+
+          promises.push(
+            new Promise((resolve) => {
+              img.addEventListener("load", () => {
+                resolve(img);
+              });
+            })
+          );
+        }
+        Promise.all(promises).then((images) => {
+          images.forEach((img) => {
+            gallery.appendChild(img);
+          });
+          imageFlow(gallery);
+        });
+      };
+
+      const imageFlow = (gallery) => {
+        const images = gallery.querySelectorAll("img");
+        const rowWidth = gallery.clientWidth;
+        let imgRow = [];
+        let remainingWidth = rowWidth;
+
+        for (const img of images) {
+          if (!img) continue;
+
+          const desiredWidth = aspectRatio(img) * rowHeight;
+
+          let didSqueeze = false;
+          if (desiredWidth > remainingWidth) {
+            if (desiredWidth < 2 * remainingWidth) {
+              imgRow.push(img);
+              remainingWidth -= desiredWidth;
+              didSqueeze = true;
+            }
+
+            imgRow.forEach((pendingImg) => {
+              const actualWidth =
+                (aspectRatio(pendingImg) * rowHeight * rowWidth) /
+                (rowWidth - remainingWidth);
+              pendingImg.width = actualWidth;
+              pendingImg.height = rowHeight;
+            });
+
+            imgRow = [];
+            remainingWidth = rowWidth;
+          }
+
+          if (!didSqueeze) {
+            imgRow.push(img);
+            remainingWidth -= desiredWidth;
+          }
+        }
+      };
+
+      window.addEventListener("resize", () =>
+        imageFlow(document.getElementById("gallery"))
+      );
+
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+
+      document.getElementById("gallery").addEventListener("click", (e) => {
+        if (e.target.nodeName === "IMG") {
+          const fullSizeSrc = e.target.src;
+          lightboxImg.style.backgroundImage = `url("${fullSizeSrc}")`;
+          lightbox.style.display = "flex";
+        }
+      });
+
+      const closeLightbox = () => {
+        lightbox.style.display = "none";
+      };
+
+      lightbox.addEventListener("click", (e) => {
+        closeLightbox();
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.code === "Escape") {
+          closeLightbox();
+        }
+      });
+    </script>
+  </body>
+</html>
