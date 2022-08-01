@@ -1,188 +1,147 @@
-const { JSDOM } = require("jsdom");
-const supertest = require("supertest");
-const app = require("../app");
+const { appAgentWithHost, render } = require("./test-utils");
 
 jest.mock("../photos/photos.json", () => Array.from(Array(100).keys()).map(i => `Photo-${i}`));
 
-const render = (response) => {
-  const dom = new JSDOM(response.text);
-  const result = {
-    container: dom.window.document
-  };
-  // Object.keys(queries).forEach((queryName) => result[queryName] = (
-  //   (...args) => queries[queryName](dom.window.document, ...args)
-  // ));
-  return result;
-};
-
 describe("Host: localhost", () => {
-  const request = supertest.agent(app).host("localhost");
+  const request = appAgentWithHost("localhost");
 
-  it("/ redirects to /me", async () => {
-    const res = await request.get("/");
-    expect(res.statusType).toBe(3);
-    expect(res.header.location).toBe("/me");
+  test("/ redirects to /me", async () => {
+    const { response } = await render(request.get("/"));
+    expect(response.statusType).toBe(3);
+    expect(response.header.location).toBe("/me");
   });
 
-  it("/me serves About", async () => {
-    const res = await request.get("/me");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/me serves About", async () => {
+    const { response, container } = await render(request.get("/me"));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/dev serves Projects", async () => {
-    const res = await request.get("/dev");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/dev serves Projects", async () => {
+    const { response, container } = await render(request.get("/dev"));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/photos serves Photos", async () => {
-    const res = await request.get("/photos");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/photos serves Photos", async () => {
+    const { response, container } = await render(request.get("/photos"));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/me/ serves About", async () => {
-    const res = await request.get("/me/");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/me/ serves About", async () => {
+    const { response, container } = await render(request.get("/me/"));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/invalid serves 404", async () => {
-    const res = await request.get("/invalid");
-    expect(res.status).toBe(404);
-
-    const { container } = render(res);
+  test("/invalid serves 404", async () => {
+    const { response, container } = await render(request.get("/invalid"));
+    expect(response.status).toBe(404);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 });
 
 describe("Host: brunson.me", () => {
-  const request = supertest.agent(app).host("brunson.me");
+  const request = appAgentWithHost("brunson.me");
 
-  it("empty path serves About", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("empty path serves About", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/ serves About", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/ serves About", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/me serves 404", async () => {
-    const res = await request.get("/me");
-    expect(res.status).toBe(404);
-
-    const { container } = render(res);
+  test("/me serves 404", async () => {
+    const { response, container } = await render(request.get("/me"));
+    expect(response.status).toBe(404);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 });
 
 describe("Host: brunson.dev", () => {
-  const request = supertest.agent(app).host("brunson.dev");
+  const request = appAgentWithHost("brunson.dev");
 
-  it("empty path serves Projects", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("empty path serves Projects", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/ serves Projects", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/ serves Projects", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/dev serves 404", async () => {
-    const res = await request.get("/dev");
-    expect(res.status).toBe(404);
-
-    const { container } = render(res);
+  test("/dev serves 404", async () => {
+    const { response, container } = await render(request.get("/dev"));
+    expect(response.status).toBe(404);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 });
 
 describe("Host: brunson.photos", () => {
-  const request = supertest.agent(app).host("brunson.photos");
+  const request = appAgentWithHost("brunson.photos");
 
-  it("empty path serves Photos", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("empty path serves Photos", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/ serves Photos", async () => {
-    const res = await request.get("");
-    expect(res.status).toBe(200);
-
-    const { container } = render(res);
+  test("/ serves Photos", async () => {
+    const { response, container } = await render(request.get(""));
+    expect(response.status).toBe(200);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 
-  it("/photos serves 404", async () => {
-    const res = await request.get("/photos");
-    expect(res.status).toBe(404);
-
-    const { container } = render(res);
+  test("/photos serves 404", async () => {
+    const { response, container } = await render(request.get("/photos"));
+    expect(response.status).toBe(404);
     expect(container.head).toMatchSnapshot();
     expect(container.body).toMatchSnapshot();
   });
 });
 
 describe("Host: anything", () => {
-  const request = supertest.agent(app).host("anything");
+  const request = appAgentWithHost("anything");
 
   describe("Photos API", () => {
-    it("/api/photos redirects to /api/photos/0", async () => {
-      const res = await request.get("/api/photos");
-      expect(res.statusType).toBe(3);
-      expect(res.header.location).toBe("/api/photos/0");
+    test("/api/photos redirects to /api/photos/0", async () => {
+      const { response } = await render(request.get("/api/photos"));
+      expect(response.statusType).toBe(3);
+      expect(response.header.location).toBe("/api/photos/0");
     });
 
-    it("/api/photos/ redirects to /api/photos/0", async () => {
-      const res = await request.get("/api/photos/");
-      expect(res.statusType).toBe(3);
-      expect(res.header.location).toBe("/api/photos/0");
+    test("/api/photos/ redirects to /api/photos/0", async () => {
+      const { response } = await render(request.get("/api/photos/"));
+      expect(response.statusType).toBe(3);
+      expect(response.header.location).toBe("/api/photos/0");
     });
 
-    it("/api/photos/0 returns the most recent 50 photos", async () => {
-      const res = await request.get("/api/photos/0");
-      expect(res.status).toBe(200);
-      const data = JSON.parse(res.text);
+    test("/api/photos/0 returns the most recent 50 photos", async () => {
+      const { response } = await render(request.get("/api/photos/0"));
+      expect(response.status).toBe(200);
+      const data = JSON.parse(response.text);
       expect(data.photos.length).toBe(50);
       for (let i = 0; i < 50; i++) {
         expect(data.photos[i]).toBe(`Photo-${99-i}`);
@@ -190,10 +149,10 @@ describe("Host: anything", () => {
       expect(data.hasNextPage).toBe(true);
     });
 
-    it("/api/photos/0/ returns the first 50 results", async () => {
-      const res = await request.get("/api/photos/0");
-      expect(res.status).toBe(200);
-      const data = JSON.parse(res.text);
+    test("/api/photos/0/ returns the first 50 results", async () => {
+      const { response } = await render(request.get("/api/photos/0"));
+      expect(response.status).toBe(200);
+      const data = JSON.parse(response.text);
       expect(data.photos.length).toBe(50);
       for (let i = 0; i < 50; i++) {
         expect(data.photos[i]).toBe(`Photo-${99-i}`);
@@ -201,10 +160,10 @@ describe("Host: anything", () => {
       expect(data.hasNextPage).toBe(true);
     });
 
-    it("/api/photos/1 returns the next 50 results", async () => {
-      const res = await request.get("/api/photos/1");
-      expect(res.status).toBe(200);
-      const data = JSON.parse(res.text);
+    test("/api/photos/1 returns the next 50 results", async () => {
+      const { response } = await render(request.get("/api/photos/1"));
+      expect(response.status).toBe(200);
+      const data = JSON.parse(response.text);
       expect(data.photos.length).toBe(50);
       for (let i = 0; i < 50; i++) {
         expect(data.photos[i]).toBe(`Photo-${49-i}`);
@@ -213,8 +172,8 @@ describe("Host: anything", () => {
     });
   });
 
-  it("/invalid serves 404", async () => {
-    const res = await request.get("/invalid");
-    expect(res.status).toBe(404);
+  test("/invalid serves 404", async () => {
+    const { response } = await render(request.get("/invalid"));
+    expect(response.status).toBe(404);
   });
 });

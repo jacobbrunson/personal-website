@@ -1,12 +1,12 @@
 let index = 0;
 let isIntersecting = false;
-
 const things = document.querySelectorAll(".thing");
 
 const next = () => {
   if (index >= things.length) {
     return;
   }
+
   const thing = things[index];
   thing.querySelectorAll(".img").forEach(div => {
     const img = document.createElement("img");
@@ -30,7 +30,6 @@ const next = () => {
     div.replaceWith(video);
   });
   thing.style = "display: block;";
-  console.log(index)
   index++;
 };
 

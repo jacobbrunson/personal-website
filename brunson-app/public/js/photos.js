@@ -58,39 +58,97 @@ const fetchPhotoNames = async (pageIndex) => {
 const imageFlow = (gallery) => {
   const images = gallery.querySelectorAll("img");
   const rowWidth = gallery.clientWidth;
-  let imgRow = [];
+
   let remainingWidth = rowWidth;
-  
-  for (const img of images) {
-    if (!img) continue;
-
+  let i = 0;
+  let p = 0;
+  let q = 0;
+  console.log("image flow")
+  while (i < images.length) {
+    const img = images[i];
     const desiredWidth = aspectRatio(img) * rowHeight;
+    console.log(i)
+    remainingWidth -= desiredWidth;
 
-    let didSqueeze = false;
-    if (desiredWidth > remainingWidth) {
-
-      if (desiredWidth < 2 * remainingWidth) {
-        imgRow.push(img);
-        remainingWidth -= desiredWidth;
-        didSqueeze = true;
+    if (remainingWidth < 0) {
+      console.log("overflow")
+      if (-remainingWidth < desiredWidth / 2) {
+        console.log("squeeze it in this row")
+        q = i;
+      } else {
+        console.log("kick it to the next row")
+        q = i - 1;
+        remainingWidth += desiredWidth;
+        if (i === images.length - 1) {
+          console.log("handling last item special case");
+          img.width = desiredWidth;
+          img.height = rowHeight;
+        }
       }
-
-      imgRow.forEach(pendingImg => {
+    }
+    
+    // if (desiredWidth > remainingWidth) {
+    //   if (desiredWidth < 2 * remainingWidth) {
+    //     q = i;
+    //   } else {
+    //     q = i - 1;
+    //   }
+    // } else if (i === images.length - 1) {
+    //   q = i;
+    // }
+    if (q > p) {
+      console.log("resizing row containing images", p, "-", q, "(inclusive)")
+      for (p; p <= q; p++) {
+        console.log("resizing", p)
+        const pendingImg = images[p];
         const actualWidth = aspectRatio(pendingImg) * rowHeight * rowWidth / (rowWidth - remainingWidth);
         pendingImg.width = actualWidth;
         pendingImg.height = rowHeight;
-      });
-      
-      imgRow = [];
-      remainingWidth = rowWidth;
+      }
+      remainingWidth = q === i ? rowWidth : rowWidth - desiredWidth;
+      p = q + 1;
     }
-
-    if (!didSqueeze) {
-      imgRow.push(img);
-      remainingWidth -= desiredWidth;
-    }
+    i++;
   }
 };
+
+// const imageFlow = (gallery) => {
+//   const images = gallery.querySelectorAll("img");
+//   const rowWidth = gallery.clientWidth;
+//   console.log("image flow", rowWidth)
+//   let imgRow = [];
+//   let remainingWidth = rowWidth;
+  
+//   for (const img of images) {
+//     if (!img) continue;
+    
+//     const desiredWidth = aspectRatio(img) * rowHeight;
+//     console.log("desiredWidth", desiredWidth)
+//     let didSqueeze = false;
+//     if (desiredWidth > remainingWidth) {
+
+//       if (desiredWidth < 2 * remainingWidth) {
+//         imgRow.push(img);
+//         remainingWidth -= desiredWidth;
+//         didSqueeze = true;
+//       }
+
+//       imgRow.forEach(pendingImg => {
+//         const actualWidth = aspectRatio(pendingImg) * rowHeight * rowWidth / (rowWidth - remainingWidth);
+//         pendingImg.width = actualWidth;
+//         pendingImg.height = rowHeight;
+//       });
+      
+//       imgRow = [];
+//       remainingWidth = rowWidth;
+//     }
+
+//     if (!didSqueeze) {
+//       imgRow.push(img);
+//       remainingWidth -= desiredWidth;
+//     }
+//   }
+// };
 
 window.addEventListener("resize", () => imageFlow(document.getElementById("gallery")));
 

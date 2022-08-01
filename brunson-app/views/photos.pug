@@ -4,18 +4,18 @@ block scripts
   script(src="/js/photos.js")
   if allowDownload
     script.
-      const downloadButton = document.createElement("a");
-      downloadButton.innerText = "download"
+      const downloadButton = document.getElementById("download");
       downloadButton.addEventListener("click", () => {
         const url = lightboxImg.style.backgroundImage.replace(/url\("(.+)"\)/, "$1");
         const name = url.replace(/.+_(.+)\.\w+/, "$1");
         downloadButton.download = name;
         downloadButton.href = url;
       });
-      lightbox.appendChild(downloadButton);
 
 block content
   ul(id="gallery")
   #sentinel
-  #lightbox
+  #lightbox(style="display:none;")
     #lightbox-img
+    if allowDownload
+      a#download download

@@ -21,7 +21,7 @@ mixin thing(project)
       ul.links
         each link in project.links
           li
-            a(href=link.href)= link.title
+            a(href=link.href target="_blank")= link.title
 
 block scripts
   script(src="/js/projects.js")
