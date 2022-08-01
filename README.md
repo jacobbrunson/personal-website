@@ -40,6 +40,8 @@ Add photos to the `upload` directory (e.g. `brunson-app/photos/upload/CoolPic.jp
 
 `photos.json` will be updated automatically, but you will still need to deploy the app.
 
+See `brunson-app/photos/README.md` for more details.
+
 # Adding new projects
 
 `cd projects`
